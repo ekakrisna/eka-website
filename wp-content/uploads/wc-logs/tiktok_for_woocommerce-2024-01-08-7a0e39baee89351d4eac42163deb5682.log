@@ -713,3 +713,241 @@ X-Parent-Response-Time: 353,23.206.233.15
 
 {"code": 0, "message": "OK", "request_id": "2024010811130156461FDFA5538385104D", "data": {}}
 
+2024-01-08T12:00:36+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync: catalog_sync executing for Eka Krisna
+2024-01-08T12:00:36+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync: adding and updating products from wc_get_products since 8 January 2024 11:05:55
+2024-01-08T12:00:36+00:00 DEBUG Tt4b_Catalog_Class::delete_products_helper: no products retrieved from tt4b_product_delete_queue option, skipping product deletion
+2024-01-08T12:00:36+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync_helper: no products retrieved from wc_get_products
+2024-01-08T12:00:36+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync_helper: product_page: 1 product_count: 0, variation_count: 0
+2024-01-08T12:00:36+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/catalog/product/upload/
+
+{"bc_id":"7321653444622827522","catalog_id":"7321651951337309954","products":[]}
+ ajax: yes
+2024-01-08T12:00:36+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 134
+stablecode: 0
+upstream-caught: None
+X_TT_LOGID: 20240108120033C73B8711929A6E08E095
+X-Domain-Change-Info: We have moved to a new domain for API services after the Platform Upgrade on 09/30/2021. Please update all of your requests with the new domain if you haven't done so already. For more information, please visit https://ads.tiktok.com/marketing_api/docs?rid=esb88xalm6m&id=1709207085043713
+X-TT-LOGID: 20240108120033C73B8711929A6E08E095
+X-TT-LOGID: 20240108120033C73B8711929A6E08E095
+x-tt-trace-host: 01ebf7b7ad2e3716121405ac78fd79dd2d86b5027eeeebfc759fb3899dcd203c18e93d71803be1692c412554b63abe6b566e80818584727e422cc78dc5c34c97c2c5b9d31b4bc4bf612f509d2e5183e177c7b90f719146d5c9f8754ada4bab861c010c100749ef174387c02dfcd1c9d76a
+x-tt-trace-id: 00-240108120033C73B8711929A6E08E095-1929F11569AE3A68-00
+Server: TLB
+X-Origin-Response-Time: 171,23.210.250.165
+X-Akamai-Request-ID: 24407f6d.1b8f7e5
+Expires: Mon, 08 Jan 2024 12:00:34 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Mon, 08 Jan 2024 12:00:34 GMT
+X-Cache: TCP_MISS from a23-206-233-70.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-210-250-165.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=19, origin; dur=170
+Server-Timing: inner; dur=165
+X-Parent-Response-Time: 185,23.206.233.70
+
+{"code": 40002, "message": "products: Shorter than minimum length 1.", "request_id": "20240108120033C73B8711929A6E08E095", "data": {}}
+
+2024-01-08T13:00:09+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync: catalog_sync executing for Eka Krisna
+2024-01-08T13:00:09+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync: adding and updating products from wc_get_products since 8 January 2024 12:00:36
+2024-01-08T13:00:09+00:00 DEBUG Tt4b_Catalog_Class::delete_products_helper: no products retrieved from tt4b_product_delete_queue option, skipping product deletion
+2024-01-08T13:00:09+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync_helper: no products retrieved from wc_get_products
+2024-01-08T13:00:09+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync_helper: product_page: 1 product_count: 0, variation_count: 0
+2024-01-08T13:00:09+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/catalog/product/upload/
+
+{"bc_id":"7321653444622827522","catalog_id":"7321651951337309954","products":[]}
+ ajax: no
+2024-01-08T13:00:11+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 134
+stablecode: 0
+upstream-caught: None
+X_TT_LOGID: 20240108130007C2E45FDBB323320C0A6F
+X-Domain-Change-Info: We have moved to a new domain for API services after the Platform Upgrade on 09/30/2021. Please update all of your requests with the new domain if you haven't done so already. For more information, please visit https://ads.tiktok.com/marketing_api/docs?rid=esb88xalm6m&id=1709207085043713
+X-TT-LOGID: 20240108130007C2E45FDBB323320C0A6F
+X-TT-LOGID: 20240108130007C2E45FDBB323320C0A6F
+Server-Timing: inner; dur=145
+x-tt-trace-host: 01ebf7b7ad2e3716121405ac78fd79dd2d3451fec14fc075d464ea5890c680163ec612f0b20b35f06b28522cbdbbe6f4dff10fa058542da9720742c6fd34d91d505f19f6b2237bb929df368b00bc72a14589b40136083d5fd93fd536ddf9b88712
+x-tt-trace-id: 00-240108130007C2E45FDBB323320C0A6F-01BCC56850CE514C-00
+Server: TLB
+Expires: Mon, 08 Jan 2024 13:00:08 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Mon, 08 Jan 2024 13:00:08 GMT
+X-Cache: TCP_MISS from a23-206-233-69.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+Connection: close
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=6, origin; dur=510
+X-Origin-Response-Time: 512,23.206.233.69
+X-Akamai-Request-ID: 225c41cb
+
+{"code": 40002, "message": "products: Shorter than minimum length 1.", "request_id": "20240108130007C2E45FDBB323320C0A6F", "data": {}}
+
+2024-01-08T14:00:35+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync: catalog_sync executing for Eka Krisna
+2024-01-08T14:00:35+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync: adding and updating products from wc_get_products since 8 January 2024 13:00:09
+2024-01-08T14:00:35+00:00 DEBUG Tt4b_Catalog_Class::delete_products_helper: no products retrieved from tt4b_product_delete_queue option, skipping product deletion
+2024-01-08T14:00:35+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync_helper: no products retrieved from wc_get_products
+2024-01-08T14:00:35+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync_helper: product_page: 1 product_count: 0, variation_count: 0
+2024-01-08T14:00:35+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/catalog/product/upload/
+
+{"bc_id":"7321653444622827522","catalog_id":"7321651951337309954","products":[]}
+ ajax: no
+2024-01-08T14:00:35+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 134
+stablecode: 0
+upstream-caught: None
+X_TT_LOGID: 2024010814003278F633E87A0710101AE0
+X-Domain-Change-Info: We have moved to a new domain for API services after the Platform Upgrade on 09/30/2021. Please update all of your requests with the new domain if you haven't done so already. For more information, please visit https://ads.tiktok.com/marketing_api/docs?rid=esb88xalm6m&id=1709207085043713
+X-TT-LOGID: 2024010814003278F633E87A0710101AE0
+X-TT-LOGID: 2024010814003278F633E87A0710101AE0
+Server-Timing: inner; dur=151
+x-tt-trace-host: 01ebf7b7ad2e3716121405ac78fd79dd2d0da8a70c8feeba90072e759aebf0f21f52b5e068d07dc040c82f6a8b230a65990656182355fdee6540c73d15fc73b84a465a2d0110d839d73ce80dadc3641646215b90eceb14c53893ed8eed79fd9745
+x-tt-trace-id: 00-24010814003278F633E87A0710101AE0-209BAD672364B3B0-00
+Server: TLB
+Expires: Mon, 08 Jan 2024 14:00:34 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Mon, 08 Jan 2024 14:00:34 GMT
+X-Cache: TCP_MISS from a23-206-233-83.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+Connection: close
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=5, origin; dur=169
+X-Origin-Response-Time: 169,23.206.233.83
+X-Akamai-Request-ID: 5b2f4ae3
+
+{"code": 40002, "message": "products: Shorter than minimum length 1.", "request_id": "2024010814003278F633E87A0710101AE0", "data": {}}
+
+2024-01-08T15:00:05+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync: catalog_sync executing for Eka Krisna
+2024-01-08T15:00:05+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync: adding and updating products from wc_get_products since 8 January 2024 14:00:35
+2024-01-08T15:00:05+00:00 DEBUG Tt4b_Catalog_Class::delete_products_helper: no products retrieved from tt4b_product_delete_queue option, skipping product deletion
+2024-01-08T15:00:05+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync_helper: no products retrieved from wc_get_products
+2024-01-08T15:00:05+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync_helper: product_page: 1 product_count: 0, variation_count: 0
+2024-01-08T15:00:05+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/catalog/product/upload/
+
+{"bc_id":"7321653444622827522","catalog_id":"7321651951337309954","products":[]}
+ ajax: no
+2024-01-08T15:00:06+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 134
+stablecode: 0
+upstream-caught: None
+X_TT_LOGID: 20240108150003FFDB06C8A12577085543
+X-Domain-Change-Info: We have moved to a new domain for API services after the Platform Upgrade on 09/30/2021. Please update all of your requests with the new domain if you haven't done so already. For more information, please visit https://ads.tiktok.com/marketing_api/docs?rid=esb88xalm6m&id=1709207085043713
+X-TT-LOGID: 20240108150003FFDB06C8A12577085543
+X-TT-LOGID: 20240108150003FFDB06C8A12577085543
+Server-Timing: inner; dur=142
+x-tt-trace-host: 01ebf7b7ad2e3716121405ac78fd79dd2d48d37d757a87d4cd5947a6c98d40c5861c5073adf855b7e6da95400049be8c74ecf6fa4e127e2c0300cbdb9dffbc194e59671dbc2f9e3d7018386e956fb3531c1b96e982e0f5d0c4b8d375a2dde362c2
+x-tt-trace-id: 00-240108150003FFDB06C8A12577085543-563E7A1A32C4D490-00
+Server: TLB
+Expires: Mon, 08 Jan 2024 15:00:04 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Mon, 08 Jan 2024 15:00:04 GMT
+X-Cache: TCP_MISS from a23-210-250-182.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+Connection: close
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=3, origin; dur=179
+X-Origin-Response-Time: 179,23.210.250.182
+X-Akamai-Request-ID: 1f1a28ea
+
+{"code": 40002, "message": "products: Shorter than minimum length 1.", "request_id": "20240108150003FFDB06C8A12577085543", "data": {}}
+
+2024-01-08T15:13:43+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: hit AddToCart
+2024-01-08T15:13:43+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CMDRQ6BC77U58IELOS4G","data":[{"event":"AddToCart","event_id":"659c11270e149_tt4b_woocommerce_659bb88b00a3d_48","event_time":1704726823,"user":{"phone":"","email":"5eadb2197b17a077b249b3ae9add68190b39cd271992e8dad601a0883586ad58","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/120.0.0.0 Safari\/537.36","locale":"en","ttp":"nvd9caop130HzR5DD9qvMfcIau8"},"properties":{"contents":[{"price":23945900,"quantity":1,"content_id":"48","content_name":"MSI VGA RTX 3080 GAMING X TRIO 10G"}],"content_type":"product","currency":"IDR","value":23945900},"page":{"url":"http:\/\/localhost\/wordpress\/?wc-ajax=add_to_cart"}}]}
+ ajax: yes
+2024-01-08T15:13:43+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 20240108151341219E8335016532BE57C2
+Server-Timing: inner; dur=103
+x-tt-trace-host: 01ebf7b7ad2e3716121405ac78fd79dd2d9fd744d8e2aff0c969853f563db4f324b1c77d3bb73247353ff691b52799513ecf92aee181f5fca1df5b0e6f3192a6cab96b6515fffb37384c345e1bcc107bbb0a17a0d2382693afc761b862a8e0a857
+x-tt-trace-id: 00-240108151341219E8335016532BE57C2-11C37C4C862D50E1-00
+Expires: Mon, 08 Jan 2024 15:13:41 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Mon, 08 Jan 2024 15:13:41 GMT
+X-Cache: TCP_MISS from a23-206-233-67.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+Connection: close
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=12, origin; dur=340
+X-Origin-Response-Time: 341,23.206.233.67
+X-Akamai-Request-ID: 18015749
+
+{"code": 0, "message": "OK", "request_id": "20240108151341219E8335016532BE57C2", "data": {}}
+
+2024-01-08T15:36:30+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-01-08T15:36:30+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CMDRQ6BC77U58IELOS4G","data":[{"event":"ViewContent","event_id":"659c167e4cc6c_tt4b_woocommerce_659bb88b00a3d_48","event_time":1704728190,"user":{"phone":"","email":"5eadb2197b17a077b249b3ae9add68190b39cd271992e8dad601a0883586ad58","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/120.0.0.0 Safari\/537.36","locale":"en","ttp":"nvd9caop130HzR5DD9qvMfcIau8"},"properties":{"contents":[{"price":23945900,"quantity":1,"content_id":"48","content_name":"MSI VGA RTX 3080 GAMING X TRIO 10G"}],"content_type":"product","currency":"IDR","value":23945900},"page":{"url":"http:\/\/localhost\/wordpress\/product\/msi-vga-rtx-3080-gaming-x-trio-10g\/"}}]}
+ ajax: no
+2024-01-08T15:36:30+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 20240108153628690E6161FF9925E73BBE
+x-tt-trace-host: 01ebf7b7ad2e3716121405ac78fd79dd2d8a3bbdea176b0191ae5d4abe823f000450ea41051e61aba6fb43917459d55a3b20ac113b2e52e3f7e6cd1b308baf5357b32b3eb94b59cea02039f84dd73db0348fa945bffb5d5478f9a177b6b1255ae6be89bb425a816dd263812df0b611d52d
+x-tt-trace-id: 00-240108153628690E6161FF9925E73BBE-4321D1FE426531C5-00
+X-Origin-Response-Time: 27,23.55.171.88
+X-Akamai-Request-ID: 8067a602.594d5c4e
+Expires: Mon, 08 Jan 2024 15:36:29 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Mon, 08 Jan 2024 15:36:29 GMT
+X-Cache: TCP_MISS from a23-206-233-96.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-55-171-88.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=244, origin; dur=27
+Server-Timing: inner; dur=24
+X-Parent-Response-Time: 260,23.206.233.96
+
+{"code": 0, "message": "OK", "request_id": "20240108153628690E6161FF9925E73BBE", "data": {}}
+
+2024-01-08T15:36:34+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-01-08T15:36:34+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CMDRQ6BC77U58IELOS4G","data":[{"event":"ViewContent","event_id":"659c168246ae1_tt4b_woocommerce_659bb88b00a3d_48","event_time":1704728194,"user":{"phone":"","email":"5eadb2197b17a077b249b3ae9add68190b39cd271992e8dad601a0883586ad58","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/120.0.0.0 Safari\/537.36","locale":"en","ttp":"nvd9caop130HzR5DD9qvMfcIau8"},"properties":{"contents":[{"price":23945900,"quantity":1,"content_id":"48","content_name":"MSI VGA RTX 3080 GAMING X TRIO 10G"}],"content_type":"product","currency":"IDR","value":23945900},"page":{"url":"http:\/\/localhost\/wordpress\/product\/msi-vga-rtx-3080-gaming-x-trio-10g\/"}}]}
+ ajax: no
+2024-01-08T15:36:34+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 20240108153632D896D02096B220AD80F1
+x-tt-trace-host: 01ebf7b7ad2e3716121405ac78fd79dd2d8a3bbdea176b0191ae5d4abe823f0004c801af6b6c5e6344d255c8f5b4af233290d7a088a2a7f698d6312dd951ea08d204cd6564a5eadbb3d7f95e27850e510b299ee1ada9ca83477634998846f90f7a49196f0b329cbe3faadf630a89347278
+x-tt-trace-id: 00-240108153632D896D02096B220AD80F1-44DC0D66572D1A92-00
+X-Origin-Response-Time: 26,23.213.246.133
+X-Akamai-Request-ID: 73694922.594db039
+Expires: Mon, 08 Jan 2024 15:36:33 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Mon, 08 Jan 2024 15:36:33 GMT
+X-Cache: TCP_MISS from a23-206-233-96.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-213-246-133.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=248, origin; dur=25
+Server-Timing: inner; dur=22
+X-Parent-Response-Time: 264,23.206.233.96
+
+{"code": 0, "message": "OK", "request_id": "20240108153632D896D02096B220AD80F1", "data": {}}
+
