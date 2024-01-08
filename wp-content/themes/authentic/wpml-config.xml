@@ -1,0 +1,27 @@
+<wpml-config>
+<admin-texts>
+	<key name="theme_mods_authentic">
+	<key name="header_logo_text" />
+	<key name="header_description_text" />
+	<key name="navbar_logo_text" />
+	<key name="footer_logo_text" />
+	<key name="footer_text" />
+	<key name="footer_subscribe_title" />
+	<key name="footer_subscribe_message" />
+	<key name="topbar_content_left_menu" />
+	<key name="topbar_content_right_menu" />
+	<key name="header_content_left_button_text" />
+	<key name="header_content_right_button_text" />
+	<key name="header_content_left_button_link" />
+	<key name="header_content_right_button_link" />
+	<key name="header_content_left_menu" />
+	<key name="header_content_right_menu" />
+	<key name="home_carousel_title" />
+	<key name="post_tags_title" />
+	<key name="post_subscribe_title" />
+	<key name="post_subscribe_message" />
+	<key name="post_carousel_title" />
+	<key name="label_readmore" />
+</key>
+</admin-texts>
+</wpml-config>
