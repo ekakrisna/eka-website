@@ -1,0 +1,162 @@
+2024-01-09T01:51:47+00:00 CRITICAL Uncaught WCPay\Exceptions\API_Exception: Your site host "localhost" is on a private network. Jetpack can only connect to public sites. in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce-payments\includes\wc-payment-api\class-wc-payments-http.php:194
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce-payments\includes\wc-payment-api\class-wc-payments-api-client.php(222): WC_Payments_Http->start_connection('http://localhos...')
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce-payments\includes\class-wc-payments-account.php(1934): WC_Payments_API_Client->start_server_connection('http://localhos...')
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce-payments\includes\class-wc-payments-account.php(1029): WC_Payments_Account->redirect_to_onboarding_flow_page()
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): WC_Payments_Account->maybe_handle_onboarding('')
+#4 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\wordpress\wp-admin\admin.php(175): do_action('admin_init')
+#7 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce-payments\includes\wc-payment-api\class-wc-payments-http.php on line 194
+
+2024-01-09T03:01:18+00:00 CRITICAL Uncaught TypeError: array_merge(): Argument #2 must be of type array, null given in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\StoreApi\Legacy.php:67
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\StoreApi\Legacy.php(67): array_merge(Array, NULL)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): Automattic\WooCommerce\StoreApi\Legacy->process_legacy_payment(Object(Automattic\WooCommerce\StoreApi\Payments\PaymentContext), Object(Automattic\WooCommerce\StoreApi\Payments\PaymentResult))
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\StoreApi\Utilities\CheckoutTrait.php(82): do_action_ref_array('woocommerce_res...', Array)
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\StoreApi\Routes\V1\Checkout.php(252): Automattic\WooCommerce\StoreApi\Routes\V1\Checkout->process_payment(Object(WP_REST_Request), Object(Automattic\WooCommerce\StoreApi\Payments\PaymentResult))
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\StoreApi\Routes\V1\AbstractRoute.php(119): Automattic\WooCommerce\StoreApi\Routes\V1\Checkout->get_route_post_response(Object(WP_REST_Request))
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\StoreApi\Routes\V1\Checkout.php(125): Automattic\WooCommerce\StoreApi\Routes\V1\AbstractRoute->get_response_by_request_method(Object(WP_REST_Request))
+#8 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1193): Automattic\WooCommerce\StoreApi\Routes\V1\Checkout->get_response(Object(WP_REST_Request))
+#9 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wc/store/v1/ch...', Array, NULL)
+#10 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#11 C:\xampp\htdocs\wordpress\wp-includes\rest-api.php(424): WP_REST_Server->serve_request('/wc/store/v1/ch...')
+#12 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#13 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#14 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#15 C:\xampp\htdocs\wordpress\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#16 C:\xampp\htdocs\wordpress\wp-includes\class-wp.php(813): WP->parse_request('')
+#17 C:\xampp\htdocs\wordpress\wp-includes\functions.php(1336): WP->main('')
+#18 C:\xampp\htdocs\wordpress\wp-blog-header.php(16): wp()
+#19 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#20 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\StoreApi\Legacy.php on line 67
+
+2024-01-09T03:01:40+00:00 CRITICAL Uncaught TypeError: array_merge(): Argument #2 must be of type array, null given in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\StoreApi\Legacy.php:67
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\StoreApi\Legacy.php(67): array_merge(Array, NULL)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): Automattic\WooCommerce\StoreApi\Legacy->process_legacy_payment(Object(Automattic\WooCommerce\StoreApi\Payments\PaymentContext), Object(Automattic\WooCommerce\StoreApi\Payments\PaymentResult))
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\StoreApi\Utilities\CheckoutTrait.php(82): do_action_ref_array('woocommerce_res...', Array)
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\StoreApi\Routes\V1\Checkout.php(252): Automattic\WooCommerce\StoreApi\Routes\V1\Checkout->process_payment(Object(WP_REST_Request), Object(Automattic\WooCommerce\StoreApi\Payments\PaymentResult))
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\StoreApi\Routes\V1\AbstractRoute.php(119): Automattic\WooCommerce\StoreApi\Routes\V1\Checkout->get_route_post_response(Object(WP_REST_Request))
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\StoreApi\Routes\V1\Checkout.php(125): Automattic\WooCommerce\StoreApi\Routes\V1\AbstractRoute->get_response_by_request_method(Object(WP_REST_Request))
+#8 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1193): Automattic\WooCommerce\StoreApi\Routes\V1\Checkout->get_response(Object(WP_REST_Request))
+#9 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wc/store/v1/ch...', Array, NULL)
+#10 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#11 C:\xampp\htdocs\wordpress\wp-includes\rest-api.php(424): WP_REST_Server->serve_request('/wc/store/v1/ch...')
+#12 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#13 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#14 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#15 C:\xampp\htdocs\wordpress\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#16 C:\xampp\htdocs\wordpress\wp-includes\class-wp.php(813): WP->parse_request('')
+#17 C:\xampp\htdocs\wordpress\wp-includes\functions.php(1336): WP->main('')
+#18 C:\xampp\htdocs\wordpress\wp-blog-header.php(16): wp()
+#19 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#20 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\StoreApi\Legacy.php on line 67
+
+2024-01-09T03:05:15+00:00 CRITICAL Uncaught TypeError: array_merge(): Argument #2 must be of type array, null given in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\StoreApi\Legacy.php:67
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\StoreApi\Legacy.php(67): array_merge(Array, NULL)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): Automattic\WooCommerce\StoreApi\Legacy->process_legacy_payment(Object(Automattic\WooCommerce\StoreApi\Payments\PaymentContext), Object(Automattic\WooCommerce\StoreApi\Payments\PaymentResult))
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\StoreApi\Utilities\CheckoutTrait.php(82): do_action_ref_array('woocommerce_res...', Array)
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\StoreApi\Routes\V1\Checkout.php(252): Automattic\WooCommerce\StoreApi\Routes\V1\Checkout->process_payment(Object(WP_REST_Request), Object(Automattic\WooCommerce\StoreApi\Payments\PaymentResult))
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\StoreApi\Routes\V1\AbstractRoute.php(119): Automattic\WooCommerce\StoreApi\Routes\V1\Checkout->get_route_post_response(Object(WP_REST_Request))
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\StoreApi\Routes\V1\Checkout.php(125): Automattic\WooCommerce\StoreApi\Routes\V1\AbstractRoute->get_response_by_request_method(Object(WP_REST_Request))
+#8 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1193): Automattic\WooCommerce\StoreApi\Routes\V1\Checkout->get_response(Object(WP_REST_Request))
+#9 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wc/store/v1/ch...', Array, NULL)
+#10 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#11 C:\xampp\htdocs\wordpress\wp-includes\rest-api.php(424): WP_REST_Server->serve_request('/wc/store/v1/ch...')
+#12 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#13 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#14 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#15 C:\xampp\htdocs\wordpress\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#16 C:\xampp\htdocs\wordpress\wp-includes\class-wp.php(813): WP->parse_request('')
+#17 C:\xampp\htdocs\wordpress\wp-includes\functions.php(1336): WP->main('')
+#18 C:\xampp\htdocs\wordpress\wp-blog-header.php(16): wp()
+#19 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#20 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\StoreApi\Legacy.php on line 67
+
+2024-01-09T03:06:57+00:00 CRITICAL Uncaught TypeError: array_merge(): Argument #2 must be of type array, null given in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\StoreApi\Legacy.php:67
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\StoreApi\Legacy.php(67): array_merge(Array, NULL)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): Automattic\WooCommerce\StoreApi\Legacy->process_legacy_payment(Object(Automattic\WooCommerce\StoreApi\Payments\PaymentContext), Object(Automattic\WooCommerce\StoreApi\Payments\PaymentResult))
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\StoreApi\Utilities\CheckoutTrait.php(82): do_action_ref_array('woocommerce_res...', Array)
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\StoreApi\Routes\V1\Checkout.php(252): Automattic\WooCommerce\StoreApi\Routes\V1\Checkout->process_payment(Object(WP_REST_Request), Object(Automattic\WooCommerce\StoreApi\Payments\PaymentResult))
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\StoreApi\Routes\V1\AbstractRoute.php(119): Automattic\WooCommerce\StoreApi\Routes\V1\Checkout->get_route_post_response(Object(WP_REST_Request))
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\StoreApi\Routes\V1\Checkout.php(125): Automattic\WooCommerce\StoreApi\Routes\V1\AbstractRoute->get_response_by_request_method(Object(WP_REST_Request))
+#8 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1193): Automattic\WooCommerce\StoreApi\Routes\V1\Checkout->get_response(Object(WP_REST_Request))
+#9 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wc/store/v1/ch...', Array, NULL)
+#10 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#11 C:\xampp\htdocs\wordpress\wp-includes\rest-api.php(424): WP_REST_Server->serve_request('/wc/store/v1/ch...')
+#12 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#13 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#14 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#15 C:\xampp\htdocs\wordpress\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#16 C:\xampp\htdocs\wordpress\wp-includes\class-wp.php(813): WP->parse_request('')
+#17 C:\xampp\htdocs\wordpress\wp-includes\functions.php(1336): WP->main('')
+#18 C:\xampp\htdocs\wordpress\wp-blog-header.php(16): wp()
+#19 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#20 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\StoreApi\Legacy.php on line 67
+
+2024-01-09T03:09:03+00:00 CRITICAL Uncaught TypeError: array_merge(): Argument #2 must be of type array, null given in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\StoreApi\Legacy.php:67
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\StoreApi\Legacy.php(67): array_merge(Array, NULL)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): Automattic\WooCommerce\StoreApi\Legacy->process_legacy_payment(Object(Automattic\WooCommerce\StoreApi\Payments\PaymentContext), Object(Automattic\WooCommerce\StoreApi\Payments\PaymentResult))
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\StoreApi\Utilities\CheckoutTrait.php(82): do_action_ref_array('woocommerce_res...', Array)
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\StoreApi\Routes\V1\Checkout.php(252): Automattic\WooCommerce\StoreApi\Routes\V1\Checkout->process_payment(Object(WP_REST_Request), Object(Automattic\WooCommerce\StoreApi\Payments\PaymentResult))
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\StoreApi\Routes\V1\AbstractRoute.php(119): Automattic\WooCommerce\StoreApi\Routes\V1\Checkout->get_route_post_response(Object(WP_REST_Request))
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\StoreApi\Routes\V1\Checkout.php(125): Automattic\WooCommerce\StoreApi\Routes\V1\AbstractRoute->get_response_by_request_method(Object(WP_REST_Request))
+#8 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1193): Automattic\WooCommerce\StoreApi\Routes\V1\Checkout->get_response(Object(WP_REST_Request))
+#9 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wc/store/v1/ch...', Array, NULL)
+#10 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#11 C:\xampp\htdocs\wordpress\wp-includes\rest-api.php(424): WP_REST_Server->serve_request('/wc/store/v1/ch...')
+#12 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#13 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#14 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#15 C:\xampp\htdocs\wordpress\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#16 C:\xampp\htdocs\wordpress\wp-includes\class-wp.php(813): WP->parse_request('')
+#17 C:\xampp\htdocs\wordpress\wp-includes\functions.php(1336): WP->main('')
+#18 C:\xampp\htdocs\wordpress\wp-blog-header.php(16): wp()
+#19 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#20 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\StoreApi\Legacy.php on line 67
+
+2024-01-09T03:09:34+00:00 CRITICAL Uncaught TypeError: array_merge(): Argument #2 must be of type array, null given in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\StoreApi\Legacy.php:67
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\StoreApi\Legacy.php(67): array_merge(Array, NULL)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): Automattic\WooCommerce\StoreApi\Legacy->process_legacy_payment(Object(Automattic\WooCommerce\StoreApi\Payments\PaymentContext), Object(Automattic\WooCommerce\StoreApi\Payments\PaymentResult))
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\StoreApi\Utilities\CheckoutTrait.php(82): do_action_ref_array('woocommerce_res...', Array)
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\StoreApi\Routes\V1\Checkout.php(252): Automattic\WooCommerce\StoreApi\Routes\V1\Checkout->process_payment(Object(WP_REST_Request), Object(Automattic\WooCommerce\StoreApi\Payments\PaymentResult))
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\StoreApi\Routes\V1\AbstractRoute.php(119): Automattic\WooCommerce\StoreApi\Routes\V1\Checkout->get_route_post_response(Object(WP_REST_Request))
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\StoreApi\Routes\V1\Checkout.php(125): Automattic\WooCommerce\StoreApi\Routes\V1\AbstractRoute->get_response_by_request_method(Object(WP_REST_Request))
+#8 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1193): Automattic\WooCommerce\StoreApi\Routes\V1\Checkout->get_response(Object(WP_REST_Request))
+#9 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wc/store/v1/ch...', Array, NULL)
+#10 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#11 C:\xampp\htdocs\wordpress\wp-includes\rest-api.php(424): WP_REST_Server->serve_request('/wc/store/v1/ch...')
+#12 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#13 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#14 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#15 C:\xampp\htdocs\wordpress\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#16 C:\xampp\htdocs\wordpress\wp-includes\class-wp.php(813): WP->parse_request('')
+#17 C:\xampp\htdocs\wordpress\wp-includes\functions.php(1336): WP->main('')
+#18 C:\xampp\htdocs\wordpress\wp-blog-header.php(16): wp()
+#19 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#20 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\StoreApi\Legacy.php on line 67
+

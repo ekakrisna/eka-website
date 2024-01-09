@@ -1,0 +1,1239 @@
+2024-01-09T01:34:44+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync: catalog_sync executing for Eka Krisna
+2024-01-09T01:34:44+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync: adding and updating products from wc_get_products since 8 January 2024 15:00:05
+2024-01-09T01:34:44+00:00 DEBUG Tt4b_Catalog_Class::delete_products_helper: no products retrieved from tt4b_product_delete_queue option, skipping product deletion
+2024-01-09T01:34:44+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync_helper: no products retrieved from wc_get_products
+2024-01-09T01:34:44+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync_helper: product_page: 1 product_count: 0, variation_count: 0
+2024-01-09T01:34:44+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/catalog/product/upload/
+
+{"bc_id":"7321653444622827522","catalog_id":"7321651951337309954","products":[]}
+ ajax: no
+2024-01-09T01:34:45+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 134
+stablecode: 0
+upstream-caught: None
+X_TT_LOGID: 2024010901344125AF7D9FE90D2F2B549A
+X-Domain-Change-Info: We have moved to a new domain for API services after the Platform Upgrade on 09/30/2021. Please update all of your requests with the new domain if you haven't done so already. For more information, please visit https://ads.tiktok.com/marketing_api/docs?rid=esb88xalm6m&id=1709207085043713
+X-TT-LOGID: 2024010901344125AF7D9FE90D2F2B549A
+X-TT-LOGID: 2024010901344125AF7D9FE90D2F2B549A
+x-tt-trace-host: 01ebf7b7ad2e3716121405ac78fd79dd2d2cb3d92f5551901ce14f41070606822e85acebe28b482b6ee8e1588acfab2d6a7c29cd7d5782bf9e143dfa3a631cb44a501bb6693277ac73cd33baf57839fe0fb3fe244406b023ea2a5e40f8e073139493c9e2e55c6637fe242e2a110fe7aa00
+x-tt-trace-id: 00-24010901344125AF7D9FE90D2F2B549A-2174041E284A78F1-00
+Server: TLB
+X-Origin-Response-Time: 135,23.210.250.125
+X-Akamai-Request-ID: 67b26dbe.25de59f5
+Expires: Tue, 09 Jan 2024 01:34:43 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 09 Jan 2024 01:34:43 GMT
+X-Cache: TCP_MISS from a23-48-173-143.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-210-250-125.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=228, origin; dur=135
+Server-Timing: inner; dur=131
+X-Parent-Response-Time: 157,23.48.173.143
+
+{"code": 40002, "message": "products: Shorter than minimum length 1.", "request_id": "2024010901344125AF7D9FE90D2F2B549A", "data": {}}
+
+2024-01-09T02:00:52+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync: catalog_sync executing for Eka Krisna
+2024-01-09T02:00:52+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync: adding and updating products from wc_get_products since 9 January 2024 01:34:44
+2024-01-09T02:00:52+00:00 DEBUG Tt4b_Catalog_Class::delete_products_helper: no products retrieved from tt4b_product_delete_queue option, skipping product deletion
+2024-01-09T02:00:52+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync_helper: no products retrieved from wc_get_products
+2024-01-09T02:00:52+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync_helper: product_page: 1 product_count: 0, variation_count: 0
+2024-01-09T02:00:52+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/catalog/product/upload/
+
+{"bc_id":"7321653444622827522","catalog_id":"7321651951337309954","products":[]}
+ ajax: no
+2024-01-09T02:00:52+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 134
+stablecode: 0
+upstream-caught: None
+X_TT_LOGID: 2024010902004946B87A53A61A0413B778
+X-Domain-Change-Info: We have moved to a new domain for API services after the Platform Upgrade on 09/30/2021. Please update all of your requests with the new domain if you haven't done so already. For more information, please visit https://ads.tiktok.com/marketing_api/docs?rid=esb88xalm6m&id=1709207085043713
+X-TT-LOGID: 2024010902004946B87A53A61A0413B778
+X-TT-LOGID: 2024010902004946B87A53A61A0413B778
+x-tt-trace-host: 01ebf7b7ad2e3716121405ac78fd79dd2d9c9bcfc5b268a170994a4a2bbf043608c54d024bf2d4bf5e58e820c370e9fb08f166a55fe5435c90f9ba688111f546fc074083bf35278e5f59bb4e57210f39f5a17975627e19d9177923b1d6369326420a4616fbf9450c02d88882e27bc9466e
+x-tt-trace-id: 00-24010902004946B87A53A61A0413B778-4DB9E12441C0E972-00
+Server: TLB
+X-Origin-Response-Time: 145,184.27.123.228
+X-Akamai-Request-ID: b64958f2.1d706f34
+Expires: Tue, 09 Jan 2024 02:00:50 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 09 Jan 2024 02:00:50 GMT
+X-Cache: TCP_MISS from a23-48-173-215.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a184-27-123-228.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=25, origin; dur=144
+Server-Timing: inner; dur=131
+X-Parent-Response-Time: 166,23.48.173.215
+
+{"code": 40002, "message": "products: Shorter than minimum length 1.", "request_id": "2024010902004946B87A53A61A0413B778", "data": {}}
+
+2024-01-09T02:07:26+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-01-09T02:07:26+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CMDRQ6BC77U58IELOS4G","data":[{"event":"ViewContent","event_id":"659caa5e62d50_tt4b_woocommerce_659bb88b00a3d_48","event_time":1704766046,"user":{"phone":"","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/120.0.0.0 Safari\/537.36","locale":"en","ttp":"nvd9caop130HzR5DD9qvMfcIau8"},"properties":{"contents":[{"price":23945900,"quantity":1,"content_id":"48","content_name":"MSI VGA RTX 3080 GAMING X TRIO 10G"}],"content_type":"product","currency":"IDR","value":23945900},"page":{"url":"http:\/\/localhost\/wordpress\/product\/msi-vga-rtx-3080-gaming-x-trio-10g\/"}}]}
+ ajax: no
+2024-01-09T02:07:26+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 202401090207248147A8E697E6B8D20A58
+x-tt-trace-host: 01ebf7b7ad2e3716121405ac78fd79dd2d3ed4e22212e3c160e99d7ac8a7d533350af7da9574260effcfc30d5fa482e29786d9c261b164ee4ca600f5d3218cd0af63980fb641a80050a2b70c0186c880224b86f50303d1cabee24767a562d567abf803cf13afba402f287a85bf278ba6c5
+x-tt-trace-id: 00-2401090207248147A8E697E6B8D20A58-1793E5496E29828E-00
+X-Origin-Response-Time: 116,23.218.219.17
+X-Akamai-Request-ID: a0066b52.4a799645
+Expires: Tue, 09 Jan 2024 02:07:24 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 09 Jan 2024 02:07:24 GMT
+X-Cache: TCP_MISS from a23-48-173-236.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-218-219-17.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=241, origin; dur=116
+Server-Timing: inner; dur=114
+X-Parent-Response-Time: 350,23.48.173.236
+
+{"code": 0, "message": "OK", "request_id": "202401090207248147A8E697E6B8D20A58", "data": {}}
+
+2024-01-09T02:07:30+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: hit AddToCart
+2024-01-09T02:07:30+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CMDRQ6BC77U58IELOS4G","data":[{"event":"AddToCart","event_id":"659caa623b475_tt4b_woocommerce_659bb88b00a3d_48","event_time":1704766050,"user":{"phone":"","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/120.0.0.0 Safari\/537.36","locale":"en","ttp":"nvd9caop130HzR5DD9qvMfcIau8"},"properties":{"contents":[{"price":23945900,"quantity":1,"content_id":"48","content_name":"MSI VGA RTX 3080 GAMING X TRIO 10G"}],"content_type":"product","currency":"IDR","value":23945900},"page":{"url":"http:\/\/localhost\/wordpress\/product\/msi-vga-rtx-3080-gaming-x-trio-10g\/"}}]}
+ ajax: no
+2024-01-09T02:07:30+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 20240109020728E29F097F1043DFBC042B
+x-tt-trace-host: 01ebf7b7ad2e3716121405ac78fd79dd2d3ed4e22212e3c160e99d7ac8a7d53335e3c8883fae2689398a8c10e4adf9a6f713e26205326ad1cccb9907c01cd4e229719efb6264c13c5dbda6dd6c28cd99dc0c3570b8fbbdd3f9a00044adeb763f534eb8b05d548aad8e17e5be23d97e662d
+x-tt-trace-id: 00-240109020728E29F097F1043DFBC042B-6E4EB52C5B25BD55-00
+X-Origin-Response-Time: 36,23.213.246.232
+X-Akamai-Request-ID: 1adfc773.4a79b173
+Expires: Tue, 09 Jan 2024 02:07:28 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 09 Jan 2024 02:07:28 GMT
+X-Cache: TCP_MISS from a23-48-173-236.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-213-246-232.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=237, origin; dur=36
+Server-Timing: inner; dur=32
+X-Parent-Response-Time: 267,23.48.173.236
+
+{"code": 0, "message": "OK", "request_id": "20240109020728E29F097F1043DFBC042B", "data": {}}
+
+2024-01-09T02:07:30+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-01-09T02:07:30+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CMDRQ6BC77U58IELOS4G","data":[{"event":"ViewContent","event_id":"659caa62d15a6_tt4b_woocommerce_659bb88b00a3d_48","event_time":1704766050,"user":{"phone":"","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/120.0.0.0 Safari\/537.36","locale":"en","ttp":"nvd9caop130HzR5DD9qvMfcIau8"},"properties":{"contents":[{"price":23945900,"quantity":1,"content_id":"48","content_name":"MSI VGA RTX 3080 GAMING X TRIO 10G"}],"content_type":"product","currency":"IDR","value":23945900},"page":{"url":"http:\/\/localhost\/wordpress\/product\/msi-vga-rtx-3080-gaming-x-trio-10g\/"}}]}
+ ajax: no
+2024-01-09T02:07:31+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 202401090207298147A8E697E6B8D20B46
+x-tt-trace-host: 01ebf7b7ad2e3716121405ac78fd79dd2d3ed4e22212e3c160e99d7ac8a7d533350af7da9574260effcfc30d5fa482e29786d9c261b164ee4ca600f5d3218cd0afb142bfc3cc6907cba2c4c9285637925e552ed733a07d638a9d8b05a570d17036ad1567c948f7065316825aa592d583ef
+x-tt-trace-id: 00-2401090207298147A8E697E6B8D20B46-1FB742723A0B01ED-00
+X-Origin-Response-Time: 28,23.218.219.17
+X-Akamai-Request-ID: a0067fcf.4a79b58c
+Expires: Tue, 09 Jan 2024 02:07:29 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 09 Jan 2024 02:07:29 GMT
+X-Cache: TCP_MISS from a23-48-173-236.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-218-219-17.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=242, origin; dur=28
+Server-Timing: inner; dur=25
+X-Parent-Response-Time: 263,23.48.173.236
+
+{"code": 0, "message": "OK", "request_id": "202401090207298147A8E697E6B8D20B46", "data": {}}
+
+2024-01-09T02:21:18+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-01-09T02:21:18+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CMDRQ6BC77U58IELOS4G","data":[{"event":"ViewContent","event_id":"659cad9e1f6bf_tt4b_woocommerce_659bb88b00a3d_48","event_time":1704766878,"user":{"phone":"","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/120.0.0.0 Safari\/537.36","locale":"en","ttp":"nvd9caop130HzR5DD9qvMfcIau8"},"properties":{"contents":[{"price":23945900,"quantity":1,"content_id":"48","content_name":"MSI VGA RTX 3080 GAMING X TRIO 10G"}],"content_type":"product","currency":"IDR","value":23945900},"page":{"url":"http:\/\/localhost\/wordpress\/product\/msi-vga-rtx-3080-gaming-x-trio-10g\/"}}]}
+ ajax: no
+2024-01-09T02:21:18+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 20240109022116973BAD9D1BFAFAC26EFF
+x-tt-trace-host: 01ebf7b7ad2e3716121405ac78fd79dd2d1265a7a5561c555f6a8a2fabf2e4a87f1345f22a49959ced662d1b38c1c292c76b9aea0769b0bf832aa516b890b7da7582e45c33c68c357173f0d47a2db21b339445fa9a83295c0a540ce1cf37de58a98bba9222666eefdec35b878ce7aed13f
+x-tt-trace-id: 00-240109022116973BAD9D1BFAFAC26EFF-20460BEC4F1F4141-00
+X-Origin-Response-Time: 41,23.32.17.69
+X-Akamai-Request-ID: 4d1faac.440dd625
+Expires: Tue, 09 Jan 2024 02:21:16 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 09 Jan 2024 02:21:16 GMT
+X-Cache: TCP_MISS from a23-206-233-91.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-32-17-69.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=239, origin; dur=41
+Server-Timing: inner; dur=37
+X-Parent-Response-Time: 274,23.206.233.91
+
+{"code": 0, "message": "OK", "request_id": "20240109022116973BAD9D1BFAFAC26EFF", "data": {}}
+
+2024-01-09T02:22:15+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: hit AddToCart
+2024-01-09T02:22:15+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CMDRQ6BC77U58IELOS4G","data":[{"event":"AddToCart","event_id":"659cadd73b013_tt4b_woocommerce_659bb88b00a3d_48","event_time":1704766935,"user":{"phone":"","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/120.0.0.0 Safari\/537.36","locale":"en","ttp":"nvd9caop130HzR5DD9qvMfcIau8"},"properties":{"contents":[{"price":23945900,"quantity":1,"content_id":"48","content_name":"MSI VGA RTX 3080 GAMING X TRIO 10G"}],"content_type":"product","currency":"IDR","value":23945900},"page":{"url":"http:\/\/localhost\/wordpress\/product\/msi-vga-rtx-3080-gaming-x-trio-10g\/"}}]}
+ ajax: no
+2024-01-09T02:22:15+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 20240109022213C99AB94D18ED9FE17B28
+x-tt-trace-host: 01ebf7b7ad2e3716121405ac78fd79dd2d64331a585be5cd309d4628f9cc97df6cccf44f6d4f926fc982647079a83eb6eaea53217b62b8634ec2d5c2fb4266b8ce9f9d75cd5084117b00b8f5476ed3a668828e251eaccfb09b8f959cb14c80f959106d52eee07bc004a4e88b6feec36c8b
+x-tt-trace-id: 00-240109022213C99AB94D18ED9FE17B28-38C2896C764FFCBA-00
+X-Origin-Response-Time: 41,23.55.171.82
+X-Akamai-Request-ID: 74bdcd45.a521d345
+Expires: Tue, 09 Jan 2024 02:22:13 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 09 Jan 2024 02:22:13 GMT
+X-Cache: TCP_MISS from a23-39-173-119.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-55-171-82.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=251, origin; dur=41
+Server-Timing: inner; dur=35
+X-Parent-Response-Time: 282,23.39.173.119
+
+{"code": 0, "message": "OK", "request_id": "20240109022213C99AB94D18ED9FE17B28", "data": {}}
+
+2024-01-09T02:22:16+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-01-09T02:22:16+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CMDRQ6BC77U58IELOS4G","data":[{"event":"ViewContent","event_id":"659cadd8d4855_tt4b_woocommerce_659bb88b00a3d_48","event_time":1704766936,"user":{"phone":"","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/120.0.0.0 Safari\/537.36","locale":"en","ttp":"nvd9caop130HzR5DD9qvMfcIau8"},"properties":{"contents":[{"price":23945900,"quantity":1,"content_id":"48","content_name":"MSI VGA RTX 3080 GAMING X TRIO 10G"}],"content_type":"product","currency":"IDR","value":23945900},"page":{"url":"http:\/\/localhost\/wordpress\/product\/msi-vga-rtx-3080-gaming-x-trio-10g\/"}}]}
+ ajax: no
+2024-01-09T02:22:17+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 202401090222158F70B61550F623E4726E
+x-tt-trace-host: 01ebf7b7ad2e3716121405ac78fd79dd2d64331a585be5cd309d4628f9cc97df6c8d925c04e5b183716246defa622dc24851167cae52f78856b8e9e8303f9a9722223beefc4b556f90ef10575daf0bd55b743dc6948c82e873106d29960b115273be1de6d375269739d8ca208fad9614bc
+x-tt-trace-id: 00-2401090222158F70B61550F623E4726E-780E2F342C84D311-00
+X-Origin-Response-Time: 85,23.218.219.5
+X-Akamai-Request-ID: 4fcb806.a521e017
+Expires: Tue, 09 Jan 2024 02:22:15 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 09 Jan 2024 02:22:15 GMT
+X-Cache: TCP_MISS from a23-39-173-119.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-218-219-5.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=264, origin; dur=85
+Server-Timing: inner; dur=35
+X-Parent-Response-Time: 338,23.39.173.119
+
+{"code": 0, "message": "OK", "request_id": "202401090222158F70B61550F623E4726E", "data": {}}
+
+2024-01-09T02:24:21+00:00 DEBUG Tt4b_Pixel_Class::inject_purchase_event: hit Purchase
+2024-01-09T02:24:21+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CMDRQ6BC77U58IELOS4G","data":[{"event":"Purchase","event_id":"659cae552a387_tt4b_woocommerce_659bb88b00a3d","event_time":1704767061,"user":{"phone":"","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/120.0.0.0 Safari\/537.36","locale":"en","ttp":"nvd9caop130HzR5DD9qvMfcIau8"},"properties":{"contents":[{"price":23945900,"quantity":1,"content_name":"MSI VGA RTX 3080 GAMING X TRIO 10G","content_id":"48"}],"content_type":"product","currency":"IDR","value":23945900},"page":{"url":"http:\/\/localhost\/wordpress\/checkout\/order-received\/2214\/?key=wc_order_Tj0yBo8jFDZj4"}}]}
+ ajax: no
+2024-01-09T02:24:22+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 2024010902241918823CA8F40F64CA8087
+x-tt-trace-host: 01ebf7b7ad2e3716121405ac78fd79dd2d59da763ad8a62136ca5fb0e1106c346541d0f6cd8088ba622b4f3524dbff5d452cf92c8c40f218f3e629df9e32af6c8e2f4870d34aa11f1ed3b215bb6d08edce4c8586677280ee5da0d015188cbe7e1c83b62379a7677b01ec10632f38f5c5ba
+x-tt-trace-id: 00-24010902241918823CA8F40F64CA8087-55A23F014CE221BB-00
+X-Origin-Response-Time: 79,23.218.219.38
+X-Akamai-Request-ID: 2699a936.58af2569
+Expires: Tue, 09 Jan 2024 02:24:19 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 09 Jan 2024 02:24:19 GMT
+X-Cache: TCP_MISS from a23-48-173-78.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-218-219-38.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=529, origin; dur=79
+Server-Timing: inner; dur=27
+X-Parent-Response-Time: 566,23.48.173.78
+
+{"code": 0, "message": "OK", "request_id": "2024010902241918823CA8F40F64CA8087", "data": {}}
+
+2024-01-09T02:25:50+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-01-09T02:25:50+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CMDRQ6BC77U58IELOS4G","data":[{"event":"ViewContent","event_id":"659caeaea5030_tt4b_woocommerce_659bb88b00a3d_48","event_time":1704767150,"user":{"phone":"","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/120.0.0.0 Safari\/537.36","locale":"en","ttp":"nvd9caop130HzR5DD9qvMfcIau8"},"properties":{"contents":[{"price":23945900,"quantity":1,"content_id":"48","content_name":"MSI VGA RTX 3080 GAMING X TRIO 10G"}],"content_type":"product","currency":"IDR","value":23945900},"page":{"url":"http:\/\/localhost\/wordpress\/product\/msi-vga-rtx-3080-gaming-x-trio-10g\/"}}]}
+ ajax: no
+2024-01-09T02:25:51+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 20240109022548DC8D9E8155A1EFE437E5
+x-tt-trace-host: 01ebf7b7ad2e3716121405ac78fd79dd2dd06aeef66ac874738029f97a707ccde0bed9313d7ab88cf745f75f1c38a68b175b3cf7dfad5eacc345699bd7e0eaf5d668f01142b324dfefd3df844519c3f42357f714107ed40666944b705f70bdbbaf611531a6855f4ce3bc89e24b288ee0ac
+x-tt-trace-id: 00-240109022548DC8D9E8155A1EFE437E5-5C98FD9F7C7B7A65-00
+X-Origin-Response-Time: 87,23.218.219.18
+X-Akamai-Request-ID: ccf33b81.470cb4c8
+Expires: Tue, 09 Jan 2024 02:25:49 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 09 Jan 2024 02:25:49 GMT
+X-Cache: TCP_MISS from a23-48-173-165.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-218-219-18.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=425, origin; dur=87
+Server-Timing: inner; dur=34
+X-Parent-Response-Time: 499,23.48.173.165
+
+{"code": 0, "message": "OK", "request_id": "20240109022548DC8D9E8155A1EFE437E5", "data": {}}
+
+2024-01-09T02:25:54+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: hit AddToCart
+2024-01-09T02:25:54+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CMDRQ6BC77U58IELOS4G","data":[{"event":"AddToCart","event_id":"659caeb20ad0b_tt4b_woocommerce_659bb88b00a3d_48","event_time":1704767154,"user":{"phone":"","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/120.0.0.0 Safari\/537.36","locale":"en","ttp":"nvd9caop130HzR5DD9qvMfcIau8"},"properties":{"contents":[{"price":23945900,"quantity":1,"content_id":"48","content_name":"MSI VGA RTX 3080 GAMING X TRIO 10G"}],"content_type":"product","currency":"IDR","value":23945900},"page":{"url":"http:\/\/localhost\/wordpress\/product\/msi-vga-rtx-3080-gaming-x-trio-10g\/"}}]}
+ ajax: no
+2024-01-09T02:25:55+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 20240109022552FF934BA9F466590B33A7
+x-tt-trace-host: 01ebf7b7ad2e3716121405ac78fd79dd2debb6d05ce95b27e92dc1b70d3a13c3e760e50c38b61694c89f2ddf9aef383261112ff6bf652bb394f06f5366bb267ce150a6fc7a82a3979321a18d911d116be10a2adacc4d9394cf126fca8d1fcafbb4c892a63508196a16a520e78ebf32462e
+x-tt-trace-id: 00-240109022552FF934BA9F466590B33A7-5F919826A082E3A9-00
+X-Origin-Response-Time: 79,23.36.67.107
+X-Akamai-Request-ID: 85ab0a5.2d747319
+Expires: Tue, 09 Jan 2024 02:25:52 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 09 Jan 2024 02:25:52 GMT
+X-Cache: TCP_MISS from a23-48-173-174.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-36-67-107.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=680, origin; dur=79
+Server-Timing: inner; dur=32
+X-Parent-Response-Time: 715,23.48.173.174
+
+{"code": 0, "message": "OK", "request_id": "20240109022552FF934BA9F466590B33A7", "data": {}}
+
+2024-01-09T02:25:56+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-01-09T02:25:56+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CMDRQ6BC77U58IELOS4G","data":[{"event":"ViewContent","event_id":"659caeb40ef99_tt4b_woocommerce_659bb88b00a3d_48","event_time":1704767156,"user":{"phone":"","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/120.0.0.0 Safari\/537.36","locale":"en","ttp":"nvd9caop130HzR5DD9qvMfcIau8"},"properties":{"contents":[{"price":23945900,"quantity":1,"content_id":"48","content_name":"MSI VGA RTX 3080 GAMING X TRIO 10G"}],"content_type":"product","currency":"IDR","value":23945900},"page":{"url":"http:\/\/localhost\/wordpress\/product\/msi-vga-rtx-3080-gaming-x-trio-10g\/"}}]}
+ ajax: no
+2024-01-09T02:25:56+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 20240109022554D522920DBDACFBD9AA57
+x-tt-trace-host: 01ebf7b7ad2e3716121405ac78fd79dd2debb6d05ce95b27e92dc1b70d3a13c3e78a3f5796dcaff0760d0b709229177ec62021fe2dfe1ad58ded8f0a727646c08d89b68aac06bdb7bc3775af0a0c615b53cb1de9c41ebe1e3255ad9a7a6ae752590f4386e6b83689732e097b2fba80b5f7
+x-tt-trace-id: 00-240109022554D522920DBDACFBD9AA57-2A92F15346BFBAF8-00
+X-Origin-Response-Time: 69,23.218.219.42
+X-Akamai-Request-ID: bcc042a6.2d747b7e
+Expires: Tue, 09 Jan 2024 02:25:54 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 09 Jan 2024 02:25:54 GMT
+X-Cache: TCP_MISS from a23-48-173-174.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-218-219-42.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=237, origin; dur=69
+Server-Timing: inner; dur=22
+X-Parent-Response-Time: 300,23.48.173.174
+
+{"code": 0, "message": "OK", "request_id": "20240109022554D522920DBDACFBD9AA57", "data": {}}
+
+2024-01-09T02:33:20+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-01-09T02:33:20+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CMDRQ6BC77U58IELOS4G","data":[{"event":"ViewContent","event_id":"659cb0707cec2_tt4b_woocommerce_659bb88b00a3d_48","event_time":1704767600,"user":{"phone":"","email":"5eadb2197b17a077b249b3ae9add68190b39cd271992e8dad601a0883586ad58","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/120.0.0.0 Safari\/537.36","locale":"en","ttp":"nvd9caop130HzR5DD9qvMfcIau8"},"properties":{"contents":[{"price":23945900,"quantity":1,"content_id":"48","content_name":"MSI VGA RTX 3080 GAMING X TRIO 10G"}],"content_type":"product","currency":"IDR","value":23945900},"page":{"url":"http:\/\/localhost\/wordpress\/product\/msi-vga-rtx-3080-gaming-x-trio-10g\/"}}]}
+ ajax: no
+2024-01-09T02:33:21+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 20240109023318605B35AA3E92B4D1F2BC
+x-tt-trace-host: 01ebf7b7ad2e3716121405ac78fd79dd2d480d803282b1d560157963bc5d198d74b16478f114551ceccbad004ccd62a90567a448b69cbdddbc5cb459a0399aee86127a3838c2d5ba163e2efdc4a57fc2a676382a0b22f16b613c4204b55339ab01ff14b51c9797c26fa1240b859c8047f0
+x-tt-trace-id: 00-240109023318605B35AA3E92B4D1F2BC-177CDB1E64FD4EEC-00
+X-Origin-Response-Time: 34,23.218.219.42
+X-Akamai-Request-ID: bcc9f614.385fe4fc
+Expires: Tue, 09 Jan 2024 02:33:19 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 09 Jan 2024 02:33:19 GMT
+X-Cache: TCP_MISS from a23-48-173-158.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-218-219-42.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=512, origin; dur=34
+Server-Timing: inner; dur=29
+X-Parent-Response-Time: 532,23.48.173.158
+
+{"code": 0, "message": "OK", "request_id": "20240109023318605B35AA3E92B4D1F2BC", "data": {}}
+
+2024-01-09T03:00:25+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync: catalog_sync executing for Eka Krisna
+2024-01-09T03:00:25+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync: adding and updating products from wc_get_products since 9 January 2024 02:00:52
+2024-01-09T03:00:25+00:00 DEBUG Tt4b_Catalog_Class::delete_products_helper: no products retrieved from tt4b_product_delete_queue option, skipping product deletion
+2024-01-09T03:00:25+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync_helper: product retrieved: {"id":48,"name":"MSI VGA RTX 3080 GAMING X TRIO 10G","slug":"msi-vga-rtx-3080-gaming-x-trio-10g","date_created":{"date":"2024-01-08 09:03:07.000000","timezone_type":1,"timezone":"+00:00"},"date_modified":{"date":"2024-01-09 02:24:14.000000","timezone_type":1,"timezone":"+00:00"},"status":"publish","featured":false,"catalog_visibility":"visible","description":"Model Name:GeForce RTX\u2122 3080 GAMING X TRIO 10G\r\n\r\nGraphics Processing Unit:NVIDIA\u00aeGeForce RTX\u2122 3080\r\n\r\nInterface:PCI Express\u00aeGen 4\r\n\r\nCores:8704\r\n\r\nCore\u00a0Clocks:TBD\r\n\r\nMemory\u00a0Speed:19 Gbps\r\n\r\nMemory:10GB GDDR6X\r\n\r\nMemory Bus:320-bit\r\n\r\nOutput:DisplayPort x 3 (v1.4a) \/ HDMI 2.1 x 1\r\n\r\nHDCP\u00a0Support:Y\r\n\r\nPower consumption:340 W\r\n\r\nPower connectors:8-pin x 3\r\n\r\nRecommended PSU:750 W\r\n\r\nCard Dimension (mm):323 x 140 x 56mm\r\n\r\nWeight (Card \/ Package):1565 g \/ 2370 g\r\n\r\nDirectX\u00a0Version Support:12 API\r\n\r\nOpenGL Version Support:4.6 Maximum\r\n\r\nDisplays:4\r\n\r\nVR Ready:Y\r\n\r\nDigital Maximum Resolution:7680x4320","short_description":"Model Name:GeForce RTX\u2122 3080 GAMING X TRIO 10G\r\n\r\nGraphics Processing Unit:NVIDIA\u00aeGeForce RTX\u2122 3080\r\n\r\nInterface:PCI Express\u00aeGen 4\r\n\r\nCores:8704\r\n\r\nCore\u00a0Clocks:TBD\r\n\r\nMemory\u00a0Speed:19 Gbps\r\n\r\nMemory:10GB GDDR6X\r\n\r\nMemory Bus:320-bit\r\n\r\nOutput:DisplayPort x 3 (v1.4a) \/ HDMI 2.1 x 1\r\n\r\nHDCP\u00a0Support:Y\r\n\r\nPower consumption:340 W\r\n\r\nPower connectors:8-pin x 3\r\n\r\nRecommended PSU:750 W\r\n\r\nCard Dimension (mm):323 x 140 x 56mm\r\n\r\nWeight (Card \/ Package):1565 g \/ 2370 g\r\n\r\nDirectX\u00a0Version Support:12 API\r\n\r\nOpenGL Version Support:4.6 Maximum\r\n\r\nDisplays:4\r\n\r\nVR Ready:Y\r\n\r\nDigital Maximum Resolution:7680x4320","sku":"","price":"23945900","regular_price":"23945900","sale_price":"","date_on_sale_from":null,"date_on_sale_to":null,"total_sales":2,"tax_status":"taxable","tax_class":"","manage_stock":true,"stock_quantity":8,"stock_status":"instock","backorders":"no","low_stock_amount":0,"sold_individually":true,"weight":"1565","length":"","width":"","height":"","upsell_ids":[],"cross_sell_ids":[],"parent_id":0,"reviews_allowed":true,"purchase_note":"","attributes":[],"default_attributes":[],"menu_order":0,"post_password":"","virtual":false,"downloadable":false,"category_ids":[22],"tag_ids":[],"shipping_class_id":0,"downloads":[],"image_id":"49","gallery_image_ids":[50,49],"download_limit":-1,"download_expiry":-1,"rating_counts":[],"average_rating":"0","review_count":0,"meta_data":[{"id":152,"key":"_powerkit_reading_time","value":"1"},{"id":178,"key":"_wc_pinterest_condition","value":"new"},{"id":180,"key":"csco_singular_layout","value":"default"}]}
+2024-01-09T03:00:25+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync_helper: product_page: 1 product_count: 1, variation_count: 0
+2024-01-09T03:00:25+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/catalog/product/upload/
+
+{"bc_id":"7321653444622827522","catalog_id":"7321651951337309954","products":[{"sku_id":"48","item_group_id":"48","title":"MSI VGA RTX 3080 GAMING X TRIO 10G","availability":"IN_STOCK","description":"Model Name:GeForce RTX\u2122 3080 GAMING X TRIO 10G\r\n\r\nGraphics Processing Unit:NVIDIA\u00aeGeForce RTX\u2122 3080\r\n\r\nInterface:PCI Express\u00aeGen 4\r\n\r\nCores:8704\r\n\r\nCore\u00a0Clocks:TBD\r\n\r\nMemory\u00a0Speed:19 Gbps\r\n\r\nMemory:10GB GDDR6X\r\n\r\nMemory Bus:320-bit\r\n\r\nOutput:DisplayPort x 3 (v1.4a) \/ HDMI 2.1 x 1\r\n\r\nHDCP\u00a0Support:Y\r\n\r\nPower consumption:340 W\r\n\r\nPower connectors:8-pin x 3\r\n\r\nRecommended PSU:750 W\r\n\r\nCard Dimension (mm):323 x 140 x 56mm\r\n\r\nWeight (Card \/ Package):1565 g \/ 2370 g\r\n\r\nDirectX\u00a0Version Support:12 API\r\n\r\nOpenGL Version Support:4.6 Maximum\r\n\r\nDisplays:4\r\n\r\nVR Ready:Y\r\n\r\nDigital Maximum Resolution:7680x4320","image_url":"http:\/\/localhost\/wordpress\/wp-content\/uploads\/2024\/01\/613b0e8606a5688308f6a187ba9e7a9ae4e07d4117fe1.jpg","brand":"Eka Krisna","product_detail":{"condition":"NEW"},"price_info":{"price":"23945900","sale_price":"23945900"},"landing_page":{"landing_page_url":"http:\/\/localhost\/wordpress\/product\/msi-vga-rtx-3080-gaming-x-trio-10g\/"},"additional_image_link":["http:\/\/localhost\/wordpress\/wp-content\/uploads\/2024\/01\/How-To-Train-Your-Dragon-Toothless.png","http:\/\/localhost\/wordpress\/wp-content\/uploads\/2024\/01\/613b0e8606a5688308f6a187ba9e7a9ae4e07d4117fe1.jpg"]}]}
+ ajax: no
+2024-01-09T03:00:26+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 118
+stablecode: 0
+upstream-caught: None
+X_TT_LOGID: 20240109030022125653AD6D4A6D2D7024
+X-Domain-Change-Info: We have moved to a new domain for API services after the Platform Upgrade on 09/30/2021. Please update all of your requests with the new domain if you haven't done so already. For more information, please visit https://ads.tiktok.com/marketing_api/docs?rid=esb88xalm6m&id=1709207085043713
+X-TT-LOGID: 20240109030022125653AD6D4A6D2D7024
+X-TT-LOGID: 20240109030022125653AD6D4A6D2D7024
+x-tt-trace-host: 01ebf7b7ad2e3716121405ac78fd79dd2d3e748507f77faefbabc4a3b479d12de418e81b9b4218f8a989a1f309fa10b882753ac47568dc70afbaf007f455329239734606b0438057b2f22a3b304ed87c01e5c0e00e81e3173f33d488a1976660503e335247c8286a891efc3f9ee639fab2
+x-tt-trace-id: 00-240109030022125653AD6D4A6D2D7024-46ADB422727A70FC-00
+Server: TLB
+X-Origin-Response-Time: 834,72.247.127.246
+X-Akamai-Request-ID: 1f5f99b.3db2efd
+Expires: Tue, 09 Jan 2024 03:00:24 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 09 Jan 2024 03:00:24 GMT
+X-Cache: TCP_MISS from a23-214-75-136.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a72-247-127-246.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=29, origin; dur=833
+Server-Timing: inner; dur=820
+X-Parent-Response-Time: 858,23.214.75.136
+
+{"code": 0, "message": "OK", "request_id": "20240109030022125653AD6D4A6D2D7024", "data": {"feed_log_id": "500435808"}}
+
+2024-01-09T03:04:18+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: hit AddToCart
+2024-01-09T03:04:18+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CMDRQ6BC77U58IELOS4G","data":[{"event":"AddToCart","event_id":"659cb7b2006d7_tt4b_woocommerce_659bb88b00a3d_48","event_time":1704769458,"user":{"phone":"","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/120.0.0.0 Safari\/537.36","locale":"en","ttp":"nvd9caop130HzR5DD9qvMfcIau8"},"properties":{"contents":[{"price":23945900,"quantity":1,"content_id":"48","content_name":"MSI VGA RTX 3080 GAMING X TRIO 10G"}],"content_type":"product","currency":"IDR","value":23945900},"page":{"url":"http:\/\/localhost\/wordpress\/?wc-ajax=add_to_cart"}}]}
+ ajax: yes
+2024-01-09T03:04:18+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 202401090304168BF9BB3209FB1B418226
+x-tt-trace-host: 01ebf7b7ad2e3716121405ac78fd79dd2d43fe501acfc669b60350155639bb7f57bfa8b6d1f7dad283dfa17c5e4c7ca8bf3c91a0e245923da0320daef8874e42da4dad8789edbd1c1b649f9b4df7e105d03cd16f058dbac42623b4b36f786256db1656d50941a4144983a21b6d16528263
+x-tt-trace-id: 00-2401090304168BF9BB3209FB1B418226-704A2F306315A640-00
+X-Origin-Response-Time: 33,23.32.17.52
+X-Akamai-Request-ID: e49453e.65ced10
+Expires: Tue, 09 Jan 2024 03:04:16 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 09 Jan 2024 03:04:16 GMT
+X-Cache: TCP_MISS from a23-214-75-156.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3.1-53336383) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-32-17-52.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=234, origin; dur=33
+Server-Timing: inner; dur=29
+X-Parent-Response-Time: 263,23.214.75.156
+
+{"code": 0, "message": "OK", "request_id": "202401090304168BF9BB3209FB1B418226", "data": {}}
+
+2024-01-09T03:08:25+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-01-09T03:08:25+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CMDRQ6BC77U58IELOS4G","data":[{"event":"ViewContent","event_id":"659cb8a9018d0_tt4b_woocommerce_659bb88b00a3d_48","event_time":1704769705,"user":{"phone":"","email":"5eadb2197b17a077b249b3ae9add68190b39cd271992e8dad601a0883586ad58","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/120.0.0.0 Safari\/537.36","locale":"en","ttp":"nvd9caop130HzR5DD9qvMfcIau8"},"properties":{"contents":[{"price":23945900,"quantity":1,"content_id":"48","content_name":"MSI VGA RTX 3080 GAMING X TRIO 10G"}],"content_type":"product","currency":"IDR","value":23945900},"page":{"url":"http:\/\/localhost\/wordpress\/product\/msi-vga-rtx-3080-gaming-x-trio-10g\/"}}]}
+ ajax: no
+2024-01-09T03:08:25+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 202401090308233151097A99A9D701872F
+x-tt-trace-host: 01ebf7b7ad2e3716121405ac78fd79dd2df345d5097107eca6f56ac46988d8538993b29e9bb54f31372516a97799fb0d64498b3aa4f58db375f1d44189b8767a8438c2f3ce966b9c0b733c8d3b26f1ebf3fdb0e90b07b02a4c510021c4f47d225f279d26b6ee0de2d72425fc6493883958
+x-tt-trace-id: 00-2401090308233151097A99A9D701872F-34D8B8526BF43A24-00
+X-Origin-Response-Time: 78,23.218.219.4
+X-Akamai-Request-ID: b19b3d17.5e57af1
+Expires: Tue, 09 Jan 2024 03:08:23 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 09 Jan 2024 03:08:23 GMT
+X-Cache: TCP_MISS from a23-206-233-11.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-218-219-4.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=233, origin; dur=77
+Server-Timing: inner; dur=26
+X-Parent-Response-Time: 307,23.206.233.11
+
+{"code": 0, "message": "OK", "request_id": "202401090308233151097A99A9D701872F", "data": {}}
+
+2024-01-09T03:08:29+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-01-09T03:08:29+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CMDRQ6BC77U58IELOS4G","data":[{"event":"ViewContent","event_id":"659cb8ad541bb_tt4b_woocommerce_659bb88b00a3d_48","event_time":1704769709,"user":{"phone":"","email":"5eadb2197b17a077b249b3ae9add68190b39cd271992e8dad601a0883586ad58","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/120.0.0.0 Safari\/537.36","locale":"en","ttp":"nvd9caop130HzR5DD9qvMfcIau8"},"properties":{"contents":[{"price":23945900,"quantity":1,"content_id":"48","content_name":"MSI VGA RTX 3080 GAMING X TRIO 10G"}],"content_type":"product","currency":"IDR","value":23945900},"page":{"url":"http:\/\/localhost\/wordpress\/product\/msi-vga-rtx-3080-gaming-x-trio-10g\/"}}]}
+ ajax: no
+2024-01-09T03:08:29+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 20240109030827EDC232F5B8DB90B63565
+x-tt-trace-host: 01ebf7b7ad2e3716121405ac78fd79dd2d777507574bad610ac59ebbd6e1d5f80a56565c33a31943065ad28e4e4da8054dcbafdd0a72d5ed99b0482de7f3e9194c7de0e07bb4d2565b83073d13f22ea9947450fd8d931330bc9d2a4bc8a522cf2fd90a1d5962b1ba543a53bd86f3b819ec
+x-tt-trace-id: 00-240109030827EDC232F5B8DB90B63565-33CDA75F77398AA8-00
+X-Origin-Response-Time: 80,23.213.246.238
+X-Akamai-Request-ID: 18f2812d.5b75441
+Expires: Tue, 09 Jan 2024 03:08:27 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 09 Jan 2024 03:08:27 GMT
+X-Cache: TCP_MISS from a23-206-233-9.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-213-246-238.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=229, origin; dur=80
+Server-Timing: inner; dur=33
+X-Parent-Response-Time: 306,23.206.233.9
+
+{"code": 0, "message": "OK", "request_id": "20240109030827EDC232F5B8DB90B63565", "data": {}}
+
+2024-01-09T03:08:38+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-01-09T03:08:38+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CMDRQ6BC77U58IELOS4G","data":[{"event":"ViewContent","event_id":"659cb8b6434e4_tt4b_woocommerce_659bb88b00a3d_48","event_time":1704769718,"user":{"phone":"","email":"5eadb2197b17a077b249b3ae9add68190b39cd271992e8dad601a0883586ad58","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/120.0.0.0 Safari\/537.36","locale":"en","ttp":"nvd9caop130HzR5DD9qvMfcIau8"},"properties":{"contents":[{"price":23945900,"quantity":1,"content_id":"48","content_name":"MSI VGA RTX 3080 GAMING X TRIO 10G"}],"content_type":"product","currency":"IDR","value":23945900},"page":{"url":"http:\/\/localhost\/wordpress\/product\/msi-vga-rtx-3080-gaming-x-trio-10g\/"}}]}
+ ajax: no
+2024-01-09T03:08:38+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 2024010903083627E229BF9A18BD313443
+x-tt-trace-host: 01ebf7b7ad2e3716121405ac78fd79dd2d777507574bad610ac59ebbd6e1d5f80a11b654941b32e1575f85c40e113307cb752366df344be74bc4e4105de7ddf655200ae0b7cd22b9db3c4fd8055c0764669a061676d9310ecc773a83fcd84c920ab9e03743d8620ddd868af2591be57287
+x-tt-trace-id: 00-24010903083627E229BF9A18BD313443-614DE5B69E93CD19-00
+X-Origin-Response-Time: 38,23.213.246.231
+X-Akamai-Request-ID: 2dd94818.5b76fc0
+Expires: Tue, 09 Jan 2024 03:08:36 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 09 Jan 2024 03:08:36 GMT
+X-Cache: TCP_MISS from a23-206-233-9.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-213-246-231.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=237, origin; dur=38
+Server-Timing: inner; dur=32
+X-Parent-Response-Time: 271,23.206.233.9
+
+{"code": 0, "message": "OK", "request_id": "2024010903083627E229BF9A18BD313443", "data": {}}
+
+2024-01-09T03:10:20+00:00 DEBUG Tt4b_Pixel_Class::inject_purchase_event: hit Purchase
+2024-01-09T03:10:20+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CMDRQ6BC77U58IELOS4G","data":[{"event":"Purchase","event_id":"659cb91c5ffca_tt4b_woocommerce_659bb88b00a3d","event_time":1704769820,"user":{"phone":"","email":"5eadb2197b17a077b249b3ae9add68190b39cd271992e8dad601a0883586ad58","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/120.0.0.0 Safari\/537.36","locale":"en","ttp":"nvd9caop130HzR5DD9qvMfcIau8"},"properties":{"contents":[{"price":23945900,"quantity":1,"content_name":"MSI VGA RTX 3080 GAMING X TRIO 10G","content_id":"48"}],"content_type":"product","currency":"IDR","value":23945900},"page":{"url":"http:\/\/localhost\/wordpress\/checkout\/order-received\/2216\/?key=wc_order_C8007bYRfD5Xh"}}]}
+ ajax: no
+2024-01-09T03:10:20+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 2024010903101877591113782943DCAD3E
+x-tt-trace-host: 01ebf7b7ad2e3716121405ac78fd79dd2d75486d3c66eb15a442a561be5925b984738193e516db3462229d6095e2207fdbb3a56201dd40431d98280d1f113adcedd8072d032d06cf8fce9d872f990f706b43158cd9ad45dd2408728ff1350c225e32c25df3f8a2189990cd6173d202655a
+x-tt-trace-id: 00-24010903101877591113782943DCAD3E-72267DBD47EB2420-00
+X-Origin-Response-Time: 36,23.32.17.54
+X-Akamai-Request-ID: 2d38360.57c5c12
+Expires: Tue, 09 Jan 2024 03:10:18 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 09 Jan 2024 03:10:18 GMT
+X-Cache: TCP_MISS from a23-214-75-140.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-32-17-54.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=236, origin; dur=36
+Server-Timing: inner; dur=32
+X-Parent-Response-Time: 269,23.214.75.140
+
+{"code": 0, "message": "OK", "request_id": "2024010903101877591113782943DCAD3E", "data": {}}
+
+2024-01-09T03:15:47+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-01-09T03:15:47+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CMDRQ6BC77U58IELOS4G","data":[{"event":"ViewContent","event_id":"659cba63f2026_tt4b_woocommerce_659bb88b00a3d_48","event_time":1704770147,"user":{"phone":"","email":"5eadb2197b17a077b249b3ae9add68190b39cd271992e8dad601a0883586ad58","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/120.0.0.0 Safari\/537.36","locale":"en","ttp":"nvd9caop130HzR5DD9qvMfcIau8"},"properties":{"contents":[{"price":23945900,"quantity":1,"content_id":"48","content_name":"MSI VGA RTX 3080 GAMING X TRIO 10G"}],"content_type":"product","currency":"IDR","value":23945900},"page":{"url":"http:\/\/localhost\/wordpress\/product\/msi-vga-rtx-3080-gaming-x-trio-10g\/"}}]}
+ ajax: no
+2024-01-09T03:15:48+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 2024010903154627A95DFF51D362AF8FF6
+x-tt-trace-host: 01ebf7b7ad2e3716121405ac78fd79dd2d606f25e3b0d92849acbf6530ec2be06b67bd20214a8348a4af8fb18557d8982ab2c0fe4a6540c1dd0294a8a77f6c2e75ce64b807baf42ddd5990ffa0a75a6892edc6b2f8969aa4a8c5e5719244edbc1cab657002c87e73927f264d774217ab92
+x-tt-trace-id: 00-24010903154627A95DFF51D362AF8FF6-088BB7C060BAE39C-00
+X-Origin-Response-Time: 28,23.55.171.68
+X-Akamai-Request-ID: 78fe991.5abb10f
+Expires: Tue, 09 Jan 2024 03:15:46 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 09 Jan 2024 03:15:46 GMT
+X-Cache: TCP_MISS from a23-48-173-140.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-55-171-68.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=239, origin; dur=28
+Server-Timing: inner; dur=24
+X-Parent-Response-Time: 259,23.48.173.140
+
+{"code": 0, "message": "OK", "request_id": "2024010903154627A95DFF51D362AF8FF6", "data": {}}
+
+2024-01-09T03:15:52+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: hit AddToCart
+2024-01-09T03:15:52+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CMDRQ6BC77U58IELOS4G","data":[{"event":"AddToCart","event_id":"659cba689315f_tt4b_woocommerce_659bb88b00a3d_48","event_time":1704770152,"user":{"phone":"","email":"5eadb2197b17a077b249b3ae9add68190b39cd271992e8dad601a0883586ad58","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/120.0.0.0 Safari\/537.36","locale":"en","ttp":"nvd9caop130HzR5DD9qvMfcIau8"},"properties":{"contents":[{"price":23945900,"quantity":1,"content_id":"48","content_name":"MSI VGA RTX 3080 GAMING X TRIO 10G"}],"content_type":"product","currency":"IDR","value":23945900},"page":{"url":"http:\/\/localhost\/wordpress\/product\/msi-vga-rtx-3080-gaming-x-trio-10g\/"}}]}
+ ajax: no
+2024-01-09T03:15:53+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 20240109031550A82BD8DEC3FC7BCAEC3D
+x-tt-trace-host: 01ebf7b7ad2e3716121405ac78fd79dd2d606f25e3b0d92849acbf6530ec2be06b8c778e9bfb401f2cb38a3db08e5ed8fdb157141239a34a86dc916822c6d93c7f41cb9b2804ae4a19c7e7e26bcf40ba04bab6aca17199fbb9a540a2fdd46fb8c2639a36266ef17be6a69a86e1597f6794
+x-tt-trace-id: 00-240109031550A82BD8DEC3FC7BCAEC3D-578FBC359C7F9BC3-00
+X-Origin-Response-Time: 251,23.218.219.26
+X-Akamai-Request-ID: 31f5478.5abc200
+Expires: Tue, 09 Jan 2024 03:15:51 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 09 Jan 2024 03:15:51 GMT
+X-Cache: TCP_MISS from a23-48-173-140.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-218-219-26.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=231, origin; dur=251
+Server-Timing: inner; dur=203
+X-Parent-Response-Time: 476,23.48.173.140
+
+{"code": 0, "message": "OK", "request_id": "20240109031550A82BD8DEC3FC7BCAEC3D", "data": {}}
+
+2024-01-09T03:15:53+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-01-09T03:15:53+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CMDRQ6BC77U58IELOS4G","data":[{"event":"ViewContent","event_id":"659cba696dd46_tt4b_woocommerce_659bb88b00a3d_48","event_time":1704770153,"user":{"phone":"","email":"5eadb2197b17a077b249b3ae9add68190b39cd271992e8dad601a0883586ad58","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/120.0.0.0 Safari\/537.36","locale":"en","ttp":"nvd9caop130HzR5DD9qvMfcIau8"},"properties":{"contents":[{"price":23945900,"quantity":1,"content_id":"48","content_name":"MSI VGA RTX 3080 GAMING X TRIO 10G"}],"content_type":"product","currency":"IDR","value":23945900},"page":{"url":"http:\/\/localhost\/wordpress\/product\/msi-vga-rtx-3080-gaming-x-trio-10g\/"}}]}
+ ajax: no
+2024-01-09T03:15:53+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 20240109031551271FBEBFD948EBBB5C4A
+x-tt-trace-host: 01ebf7b7ad2e3716121405ac78fd79dd2d606f25e3b0d92849acbf6530ec2be06b8c778e9bfb401f2cb38a3db08e5ed8fde2c326ba63d9b39dd995c1e48210268c3a6ec33e5c31dbe1efeb0c978559e10a9181a372773bf15d5f5d7736da273c00cd43b2da22245cc6874cc4671ee79cff
+x-tt-trace-id: 00-240109031551271FBEBFD948EBBB5C4A-38C492B08564AD80-00
+X-Origin-Response-Time: 34,23.218.219.26
+X-Akamai-Request-ID: 31f5d8e.5abc520
+Expires: Tue, 09 Jan 2024 03:15:51 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 09 Jan 2024 03:15:51 GMT
+X-Cache: TCP_MISS from a23-48-173-140.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-218-219-26.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=233, origin; dur=34
+Server-Timing: inner; dur=31
+X-Parent-Response-Time: 260,23.48.173.140
+
+{"code": 0, "message": "OK", "request_id": "20240109031551271FBEBFD948EBBB5C4A", "data": {}}
+
+2024-01-09T03:16:10+00:00 DEBUG Tt4b_Pixel_Class::inject_purchase_event: hit Purchase
+2024-01-09T03:16:10+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CMDRQ6BC77U58IELOS4G","data":[{"event":"Purchase","event_id":"659cba7ad5555_tt4b_woocommerce_659bb88b00a3d","event_time":1704770170,"user":{"phone":"","email":"5eadb2197b17a077b249b3ae9add68190b39cd271992e8dad601a0883586ad58","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/120.0.0.0 Safari\/537.36","locale":"en","ttp":"nvd9caop130HzR5DD9qvMfcIau8"},"properties":{"contents":[{"price":23945900,"quantity":1,"content_name":"MSI VGA RTX 3080 GAMING X TRIO 10G","content_id":"48"}],"content_type":"product","currency":"IDR","value":23945900},"page":{"url":"http:\/\/localhost\/wordpress\/checkout\/order-received\/2217\/?key=wc_order_OoqTbdMPYwPuC&utm_nooverride=1&order_id=2217"}}]}
+ ajax: no
+2024-01-09T03:16:11+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 20240109031609AA4E337A9A408D319EDC
+x-tt-trace-host: 01ebf7b7ad2e3716121405ac78fd79dd2d952479e4d4aeba7c7779802771c89e9435cd558ee5dc5ac67be4727ebb2ca4965fec279488950f7830b3751ad6c4fa63672f5ddb555ebea75a192bddcc769fb3cf2cd5ae746422a4c8e76a0b3694a915ee910044dbb24fbf5be6b9e88380720b
+x-tt-trace-id: 00-240109031609AA4E337A9A408D319EDC-3A1A81796D95302D-00
+X-Origin-Response-Time: 34,23.55.171.76
+X-Akamai-Request-ID: 701e3ff.278d8159
+Expires: Tue, 09 Jan 2024 03:16:09 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 09 Jan 2024 03:16:09 GMT
+X-Cache: TCP_MISS from a23-48-173-117.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-55-171-76.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=260, origin; dur=34
+Server-Timing: inner; dur=31
+X-Parent-Response-Time: 274,23.48.173.117
+
+{"code": 0, "message": "OK", "request_id": "20240109031609AA4E337A9A408D319EDC", "data": {}}
+
+2024-01-09T03:31:32+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-01-09T03:31:32+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CMDRQ6BC77U58IELOS4G","data":[{"event":"ViewContent","event_id":"659cbe146bd1c_tt4b_woocommerce_659bb88b00a3d_48","event_time":1704771092,"user":{"phone":"","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/120.0.0.0 Safari\/537.36","locale":"en","ttp":"nvd9caop130HzR5DD9qvMfcIau8"},"properties":{"contents":[{"price":23945900,"quantity":1,"content_id":"48","content_name":"MSI VGA RTX 3080 GAMING X TRIO 10G"}],"content_type":"product","currency":"IDR","value":23945900},"page":{"url":"http:\/\/localhost\/wordpress\/product\/msi-vga-rtx-3080-gaming-x-trio-10g\/"}}]}
+ ajax: no
+2024-01-09T03:31:32+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 202401090331303FFA0D1CE422EDF88DEF
+x-tt-trace-host: 01ebf7b7ad2e3716121405ac78fd79dd2d5e2dce6dd4f55f8ce8d64a527c92ad8591a0b5e7a1c182d4bd0104dde94b7192b65a7e7247a423689f8084914a04cd2a3ee9cf0293aed8031ff62835130bb34198326901c0fb6918a7d92ac8c4c00a2836765b85f29fb776880d4e5925e8c69a
+x-tt-trace-id: 00-2401090331303FFA0D1CE422EDF88DEF-26130C0642D3D37F-00
+X-Origin-Response-Time: 33,23.32.17.47
+X-Akamai-Request-ID: 1527b7d.77717b4
+Expires: Tue, 09 Jan 2024 03:31:30 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 09 Jan 2024 03:31:30 GMT
+X-Cache: TCP_MISS from a23-206-233-76.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-32-17-47.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=241, origin; dur=32
+Server-Timing: inner; dur=30
+X-Parent-Response-Time: 266,23.206.233.76
+
+{"code": 0, "message": "OK", "request_id": "202401090331303FFA0D1CE422EDF88DEF", "data": {}}
+
+2024-01-09T03:31:35+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: hit AddToCart
+2024-01-09T03:31:35+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CMDRQ6BC77U58IELOS4G","data":[{"event":"AddToCart","event_id":"659cbe17ad56b_tt4b_woocommerce_659bb88b00a3d_48","event_time":1704771095,"user":{"phone":"","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/120.0.0.0 Safari\/537.36","locale":"en","ttp":"nvd9caop130HzR5DD9qvMfcIau8"},"properties":{"contents":[{"price":23945900,"quantity":1,"content_id":"48","content_name":"MSI VGA RTX 3080 GAMING X TRIO 10G"}],"content_type":"product","currency":"IDR","value":23945900},"page":{"url":"http:\/\/localhost\/wordpress\/product\/msi-vga-rtx-3080-gaming-x-trio-10g\/"}}]}
+ ajax: no
+2024-01-09T03:31:36+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 2024010903313349C8D7F1AF29C7180A47
+x-tt-trace-host: 01ebf7b7ad2e3716121405ac78fd79dd2de0bd4fa12786e7c5647552ef7d8da365e628718b3e523a8862154747093f48d2b26f6d2290347a09b8ef9dfcc4b1048f372cf48fc63774f3b7d4583020b12708117418912b210c13ee39d0b850280b08a5c6e12ff804bec3fb337ab6a22ca0ac
+x-tt-trace-id: 00-24010903313349C8D7F1AF29C7180A47-12E8E9A189BB0BD5-00
+X-Origin-Response-Time: 41,23.32.17.49
+X-Akamai-Request-ID: 7b82836.48431d1
+Expires: Tue, 09 Jan 2024 03:31:34 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 09 Jan 2024 03:31:34 GMT
+X-Cache: TCP_MISS from a23-214-75-150.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-32-17-49.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=234, origin; dur=41
+Server-Timing: inner; dur=37
+X-Parent-Response-Time: 271,23.214.75.150
+
+{"code": 0, "message": "OK", "request_id": "2024010903313349C8D7F1AF29C7180A47", "data": {}}
+
+2024-01-09T03:31:36+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-01-09T03:31:36+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CMDRQ6BC77U58IELOS4G","data":[{"event":"ViewContent","event_id":"659cbe1859db1_tt4b_woocommerce_659bb88b00a3d_48","event_time":1704771096,"user":{"phone":"","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/120.0.0.0 Safari\/537.36","locale":"en","ttp":"nvd9caop130HzR5DD9qvMfcIau8"},"properties":{"contents":[{"price":23945900,"quantity":1,"content_id":"48","content_name":"MSI VGA RTX 3080 GAMING X TRIO 10G"}],"content_type":"product","currency":"IDR","value":23945900},"page":{"url":"http:\/\/localhost\/wordpress\/product\/msi-vga-rtx-3080-gaming-x-trio-10g\/"}}]}
+ ajax: no
+2024-01-09T03:31:36+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 202401090331340269CD13C8062BE882C3
+x-tt-trace-host: 01ebf7b7ad2e3716121405ac78fd79dd2de0bd4fa12786e7c5647552ef7d8da36536eb6c0cd1531c037557bd6265f1e46691c2a48536536cfdaaf2e4f242ed2cccfc19ebf07b9889c73090413c88a610e7827a7ad8f7ea0b86bfc707a77043d0397ec6d200f99fa5da5ce8d1b6b7aa63a9
+x-tt-trace-id: 00-2401090331340269CD13C8062BE882C3-33E8C2CEA4000B9E-00
+X-Origin-Response-Time: 39,23.207.199.78
+X-Akamai-Request-ID: b63d6a52.4843454
+Expires: Tue, 09 Jan 2024 03:31:34 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 09 Jan 2024 03:31:34 GMT
+X-Cache: TCP_MISS from a23-214-75-150.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-207-199-78.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=239, origin; dur=39
+Server-Timing: inner; dur=36
+X-Parent-Response-Time: 273,23.214.75.150
+
+{"code": 0, "message": "OK", "request_id": "202401090331340269CD13C8062BE882C3", "data": {}}
+
+2024-01-09T03:32:46+00:00 DEBUG Tt4b_Pixel_Class::inject_purchase_event: hit Purchase
+2024-01-09T03:32:46+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CMDRQ6BC77U58IELOS4G","data":[{"event":"Purchase","event_id":"659cbe5eb0e95_tt4b_woocommerce_659bb88b00a3d","event_time":1704771166,"user":{"phone":"","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/120.0.0.0 Safari\/537.36","locale":"en","ttp":"nvd9caop130HzR5DD9qvMfcIau8"},"properties":{"contents":[{"price":23945900,"quantity":1,"content_name":"MSI VGA RTX 3080 GAMING X TRIO 10G","content_id":"48"}],"content_type":"product","currency":"IDR","value":23945900},"page":{"url":"http:\/\/localhost\/wordpress\/checkout\/order-received\/2218\/?key=wc_order_zhlCsoPhKt6Se&utm_nooverride=1&order_id=2218"}}]}
+ ajax: no
+2024-01-09T03:32:47+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 20240109033245725AA7B13352BAAD98D7
+x-tt-trace-host: 01ebf7b7ad2e3716121405ac78fd79dd2d7a2e5a0382917dd24d5361da25a1537e155bccd1547258587d67ca0c235ee1e2807085395aed9946219feacd5139b0586d1e4f211bd5841ebbb47913d4fd76fce0a69168eb5560e9486ae87b7c95826de502bc2e86e650eadff86d01791ebf7d
+x-tt-trace-id: 00-240109033245725AA7B13352BAAD98D7-6608D1FB518CE8D1-00
+X-Origin-Response-Time: 35,23.32.17.51
+X-Akamai-Request-ID: 24c5682.25eb1340
+Expires: Tue, 09 Jan 2024 03:32:45 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 09 Jan 2024 03:32:45 GMT
+X-Cache: TCP_MISS from a23-206-233-66.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-32-17-51.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=237, origin; dur=35
+Server-Timing: inner; dur=32
+X-Parent-Response-Time: 266,23.206.233.66
+
+{"code": 0, "message": "OK", "request_id": "20240109033245725AA7B13352BAAD98D7", "data": {}}
+
+2024-01-09T03:33:09+00:00 DEBUG Tt4b_Pixel_Class::inject_purchase_event: hit Purchase
+2024-01-09T03:33:09+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CMDRQ6BC77U58IELOS4G","data":[{"event":"Purchase","event_id":"659cbe75adb4f_tt4b_woocommerce_659bb88b00a3d","event_time":1704771189,"user":{"phone":"","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/120.0.0.0 Safari\/537.36","locale":"en","ttp":"nvd9caop130HzR5DD9qvMfcIau8"},"properties":{"contents":[{"price":23945900,"quantity":1,"content_name":"MSI VGA RTX 3080 GAMING X TRIO 10G","content_id":"48"}],"content_type":"product","currency":"IDR","value":23945900},"page":{"url":"http:\/\/localhost\/wordpress\/checkout\/order-received\/2218\/?key=wc_order_zhlCsoPhKt6Se"}}]}
+ ajax: no
+2024-01-09T03:33:10+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 202401090333084BF9A2B7A008A8C176EC
+x-tt-trace-host: 01ebf7b7ad2e3716121405ac78fd79dd2d88f18222c35d18aa23de8a763723b5fd77b909a2b49c17fd60a5cc5e809029be1f033cfe75a3b0b09fbf0b77532dea848f0bd11cc9d34c5919f1456ddb34a899526d2d6e9d89ad029c4899d05071e47ff761ff12e78379edc41322a3e3bda5e8
+x-tt-trace-id: 00-2401090333084BF9A2B7A008A8C176EC-579E9491241C0943-00
+X-Origin-Response-Time: 74,23.213.246.141
+X-Akamai-Request-ID: bf747aa7.496e89c
+Expires: Tue, 09 Jan 2024 03:33:08 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 09 Jan 2024 03:33:08 GMT
+X-Cache: TCP_MISS from a23-214-75-165.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-213-246-141.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=233, origin; dur=74
+Server-Timing: inner; dur=28
+X-Parent-Response-Time: 302,23.214.75.165
+
+{"code": 0, "message": "OK", "request_id": "202401090333084BF9A2B7A008A8C176EC", "data": {}}
+
+2024-01-09T03:52:12+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-01-09T03:52:12+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CMDRQ6BC77U58IELOS4G","data":[{"event":"ViewContent","event_id":"659cc2ece03b7_tt4b_woocommerce_659bb88b00a3d_48","event_time":1704772332,"user":{"phone":"","email":"5eadb2197b17a077b249b3ae9add68190b39cd271992e8dad601a0883586ad58","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/120.0.0.0 Safari\/537.36","locale":"en","ttp":"nvd9caop130HzR5DD9qvMfcIau8"},"properties":{"contents":[{"price":23945900,"quantity":1,"content_id":"48","content_name":"MSI VGA RTX 3080 GAMING X TRIO 10G"}],"content_type":"product","currency":"IDR","value":23945900},"page":{"url":"http:\/\/localhost\/wordpress\/product\/msi-vga-rtx-3080-gaming-x-trio-10g\/"}}]}
+ ajax: no
+2024-01-09T03:52:13+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 20240109035211DD0EB5A5834221407875
+x-tt-trace-host: 01ebf7b7ad2e3716121405ac78fd79dd2d411045f5060ee2260f3071802a73849c381607a21af443a958b10588ca4e232381ec1ec80ebf855c84b7eb0e5a512cea8fbf178cef07fae8e06ed4ca858e231270b7725850f1efe1ed9549d7862a520763ecfeef974fc3bdef2d4062f499b9d3
+x-tt-trace-id: 00-240109035211DD0EB5A5834221407875-414593E12ECAA4CD-00
+X-Origin-Response-Time: 29,23.32.17.58
+X-Akamai-Request-ID: 61c2986.4918993
+Expires: Tue, 09 Jan 2024 03:52:11 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 09 Jan 2024 03:52:11 GMT
+X-Cache: TCP_MISS from a23-214-75-160.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-32-17-58.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=239, origin; dur=29
+Server-Timing: inner; dur=24
+X-Parent-Response-Time: 264,23.214.75.160
+
+{"code": 0, "message": "OK", "request_id": "20240109035211DD0EB5A5834221407875", "data": {}}
+
+2024-01-09T03:52:17+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: hit AddToCart
+2024-01-09T03:52:17+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CMDRQ6BC77U58IELOS4G","data":[{"event":"AddToCart","event_id":"659cc2f17b375_tt4b_woocommerce_659bb88b00a3d_48","event_time":1704772337,"user":{"phone":"","email":"5eadb2197b17a077b249b3ae9add68190b39cd271992e8dad601a0883586ad58","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/120.0.0.0 Safari\/537.36","locale":"en","ttp":"nvd9caop130HzR5DD9qvMfcIau8"},"properties":{"contents":[{"price":23945900,"quantity":1,"content_id":"48","content_name":"MSI VGA RTX 3080 GAMING X TRIO 10G"}],"content_type":"product","currency":"IDR","value":23945900},"page":{"url":"http:\/\/localhost\/wordpress\/product\/msi-vga-rtx-3080-gaming-x-trio-10g\/"}}]}
+ ajax: no
+2024-01-09T03:52:17+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 202401090352150584E56610595FC48D18
+x-tt-trace-host: 01ebf7b7ad2e3716121405ac78fd79dd2d274957ab534be602a8dcc94223e7d98ee3f3e53df85a307a064d3608b665f74ac1c3e0388f60651bfb7503cc439ce179012c5c2e3c751f05df15cc55c3dd4ab89ee4bcc6c5f67d35ab501dd369cb32659ca89516277704b234863b64030f90bb
+x-tt-trace-id: 00-2401090352150584E56610595FC48D18-4184164B2BEDB1F6-00
+X-Origin-Response-Time: 29,23.32.17.66
+X-Akamai-Request-ID: 63b777c.9f68fcb
+Expires: Tue, 09 Jan 2024 03:52:15 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 09 Jan 2024 03:52:15 GMT
+X-Cache: TCP_MISS from a23-206-233-16.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-32-17-66.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=236, origin; dur=29
+Server-Timing: inner; dur=26
+X-Parent-Response-Time: 259,23.206.233.16
+
+{"code": 0, "message": "OK", "request_id": "202401090352150584E56610595FC48D18", "data": {}}
+
+2024-01-09T03:52:18+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-01-09T03:52:18+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CMDRQ6BC77U58IELOS4G","data":[{"event":"ViewContent","event_id":"659cc2f220f5d_tt4b_woocommerce_659bb88b00a3d_48","event_time":1704772338,"user":{"phone":"","email":"5eadb2197b17a077b249b3ae9add68190b39cd271992e8dad601a0883586ad58","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/120.0.0.0 Safari\/537.36","locale":"en","ttp":"nvd9caop130HzR5DD9qvMfcIau8"},"properties":{"contents":[{"price":23945900,"quantity":1,"content_id":"48","content_name":"MSI VGA RTX 3080 GAMING X TRIO 10G"}],"content_type":"product","currency":"IDR","value":23945900},"page":{"url":"http:\/\/localhost\/wordpress\/product\/msi-vga-rtx-3080-gaming-x-trio-10g\/"}}]}
+ ajax: no
+2024-01-09T03:52:18+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 20240109035216282A4CAB5D5ECAEFCDAC
+x-tt-trace-host: 01ebf7b7ad2e3716121405ac78fd79dd2d274957ab534be602a8dcc94223e7d98ee3f3e53df85a307a064d3608b665f74ae0d59f81b6ab0a00ac463ff7101f380ec4632075f377bca8bc377561eb7f57ac21c3bcbd0cf3081b1b13301075d4cf2254b4b15f89d1af830bd6c7de0608ff3d
+x-tt-trace-id: 00-240109035216282A4CAB5D5ECAEFCDAC-21FB38C09F1D69FD-00
+X-Origin-Response-Time: 33,23.32.17.66
+X-Akamai-Request-ID: 63b878a.9f695b8
+Expires: Tue, 09 Jan 2024 03:52:16 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 09 Jan 2024 03:52:16 GMT
+X-Cache: TCP_MISS from a23-206-233-16.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-32-17-66.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=256, origin; dur=33
+Server-Timing: inner; dur=30
+X-Parent-Response-Time: 275,23.206.233.16
+
+{"code": 0, "message": "OK", "request_id": "20240109035216282A4CAB5D5ECAEFCDAC", "data": {}}
+
+2024-01-09T04:00:51+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync: catalog_sync executing for Eka Krisna
+2024-01-09T04:00:51+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync: adding and updating products from wc_get_products since 9 January 2024 03:00:25
+2024-01-09T04:00:51+00:00 DEBUG Tt4b_Catalog_Class::delete_products_helper: no products retrieved from tt4b_product_delete_queue option, skipping product deletion
+2024-01-09T04:00:51+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync_helper: product retrieved: {"id":48,"name":"MSI VGA RTX 3080 GAMING X TRIO 10G","slug":"msi-vga-rtx-3080-gaming-x-trio-10g","date_created":{"date":"2024-01-08 09:03:07.000000","timezone_type":1,"timezone":"+00:00"},"date_modified":{"date":"2024-01-09 03:33:46.000000","timezone_type":1,"timezone":"+00:00"},"status":"publish","featured":false,"catalog_visibility":"visible","description":"Model Name:GeForce RTX\u2122 3080 GAMING X TRIO 10G\r\n\r\nGraphics Processing Unit:NVIDIA\u00aeGeForce RTX\u2122 3080\r\n\r\nInterface:PCI Express\u00aeGen 4\r\n\r\nCores:8704\r\n\r\nCore\u00a0Clocks:TBD\r\n\r\nMemory\u00a0Speed:19 Gbps\r\n\r\nMemory:10GB GDDR6X\r\n\r\nMemory Bus:320-bit\r\n\r\nOutput:DisplayPort x 3 (v1.4a) \/ HDMI 2.1 x 1\r\n\r\nHDCP\u00a0Support:Y\r\n\r\nPower consumption:340 W\r\n\r\nPower connectors:8-pin x 3\r\n\r\nRecommended PSU:750 W\r\n\r\nCard Dimension (mm):323 x 140 x 56mm\r\n\r\nWeight (Card \/ Package):1565 g \/ 2370 g\r\n\r\nDirectX\u00a0Version Support:12 API\r\n\r\nOpenGL Version Support:4.6 Maximum\r\n\r\nDisplays:4\r\n\r\nVR Ready:Y\r\n\r\nDigital Maximum Resolution:7680x4320","short_description":"Model Name:GeForce RTX\u2122 3080 GAMING X TRIO 10G\r\n\r\nGraphics Processing Unit:NVIDIA\u00aeGeForce RTX\u2122 3080\r\n\r\nInterface:PCI Express\u00aeGen 4\r\n\r\nCores:8704\r\n\r\nCore\u00a0Clocks:TBD\r\n\r\nMemory\u00a0Speed:19 Gbps\r\n\r\nMemory:10GB GDDR6X\r\n\r\nMemory Bus:320-bit\r\n\r\nOutput:DisplayPort x 3 (v1.4a) \/ HDMI 2.1 x 1\r\n\r\nHDCP\u00a0Support:Y\r\n\r\nPower consumption:340 W\r\n\r\nPower connectors:8-pin x 3\r\n\r\nRecommended PSU:750 W\r\n\r\nCard Dimension (mm):323 x 140 x 56mm\r\n\r\nWeight (Card \/ Package):1565 g \/ 2370 g\r\n\r\nDirectX\u00a0Version Support:12 API\r\n\r\nOpenGL Version Support:4.6 Maximum\r\n\r\nDisplays:4\r\n\r\nVR Ready:Y\r\n\r\nDigital Maximum Resolution:7680x4320","sku":"","price":"23945900","regular_price":"23945900","sale_price":"","date_on_sale_from":null,"date_on_sale_to":null,"total_sales":5,"tax_status":"taxable","tax_class":"","manage_stock":true,"stock_quantity":5,"stock_status":"instock","backorders":"no","low_stock_amount":0,"sold_individually":true,"weight":"1565","length":"","width":"","height":"","upsell_ids":[],"cross_sell_ids":[],"parent_id":0,"reviews_allowed":true,"purchase_note":"","attributes":[],"default_attributes":[],"menu_order":0,"post_password":"","virtual":false,"downloadable":false,"category_ids":[22],"tag_ids":[],"shipping_class_id":0,"downloads":[],"image_id":"49","gallery_image_ids":[50,49],"download_limit":-1,"download_expiry":-1,"rating_counts":[],"average_rating":"0","review_count":0,"meta_data":[{"id":152,"key":"_powerkit_reading_time","value":"1"},{"id":178,"key":"_wc_pinterest_condition","value":"new"},{"id":180,"key":"csco_singular_layout","value":"default"}]}
+2024-01-09T04:00:51+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync_helper: product_page: 1 product_count: 1, variation_count: 0
+2024-01-09T04:00:51+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/catalog/product/upload/
+
+{"bc_id":"7321653444622827522","catalog_id":"7321651951337309954","products":[{"sku_id":"48","item_group_id":"48","title":"MSI VGA RTX 3080 GAMING X TRIO 10G","availability":"IN_STOCK","description":"Model Name:GeForce RTX\u2122 3080 GAMING X TRIO 10G\r\n\r\nGraphics Processing Unit:NVIDIA\u00aeGeForce RTX\u2122 3080\r\n\r\nInterface:PCI Express\u00aeGen 4\r\n\r\nCores:8704\r\n\r\nCore\u00a0Clocks:TBD\r\n\r\nMemory\u00a0Speed:19 Gbps\r\n\r\nMemory:10GB GDDR6X\r\n\r\nMemory Bus:320-bit\r\n\r\nOutput:DisplayPort x 3 (v1.4a) \/ HDMI 2.1 x 1\r\n\r\nHDCP\u00a0Support:Y\r\n\r\nPower consumption:340 W\r\n\r\nPower connectors:8-pin x 3\r\n\r\nRecommended PSU:750 W\r\n\r\nCard Dimension (mm):323 x 140 x 56mm\r\n\r\nWeight (Card \/ Package):1565 g \/ 2370 g\r\n\r\nDirectX\u00a0Version Support:12 API\r\n\r\nOpenGL Version Support:4.6 Maximum\r\n\r\nDisplays:4\r\n\r\nVR Ready:Y\r\n\r\nDigital Maximum Resolution:7680x4320","image_url":"http:\/\/localhost\/wordpress\/wp-content\/uploads\/2024\/01\/613b0e8606a5688308f6a187ba9e7a9ae4e07d4117fe1.jpg","brand":"Eka Krisna","product_detail":{"condition":"NEW"},"price_info":{"price":"23945900","sale_price":"23945900"},"landing_page":{"landing_page_url":"http:\/\/localhost\/wordpress\/product\/msi-vga-rtx-3080-gaming-x-trio-10g\/"},"additional_image_link":["http:\/\/localhost\/wordpress\/wp-content\/uploads\/2024\/01\/How-To-Train-Your-Dragon-Toothless.png","http:\/\/localhost\/wordpress\/wp-content\/uploads\/2024\/01\/613b0e8606a5688308f6a187ba9e7a9ae4e07d4117fe1.jpg"]}]}
+ ajax: yes
+2024-01-09T04:00:52+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 118
+stablecode: 0
+upstream-caught: None
+X_TT_LOGID: 202401090400480025E22FDDD0E530C671
+X-Domain-Change-Info: We have moved to a new domain for API services after the Platform Upgrade on 09/30/2021. Please update all of your requests with the new domain if you haven't done so already. For more information, please visit https://ads.tiktok.com/marketing_api/docs?rid=esb88xalm6m&id=1709207085043713
+X-TT-LOGID: 202401090400480025E22FDDD0E530C671
+X-TT-LOGID: 202401090400480025E22FDDD0E530C671
+x-tt-trace-host: 01ebf7b7ad2e3716121405ac78fd79dd2dd9409f3b6256810a522343bf017db10769a0aef79dd6cd4fd16c7865e64985393cbfd49fa2d07e91f541a6fb096810c06f8ed9160a4abac65a0027c269ab331a20247faf7c93cd7a0756da60cbea4086f1783b93ceb6701ebb131d3137086e65
+x-tt-trace-id: 00-2401090400480025E22FDDD0E530C671-62294F3667BB1F32-00
+Server: TLB
+X-Origin-Response-Time: 762,72.247.127.188
+X-Akamai-Request-ID: 64c750f4.46a6a79
+Expires: Tue, 09 Jan 2024 04:00:50 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 09 Jan 2024 04:00:50 GMT
+X-Cache: TCP_MISS from a23-214-75-141.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a72-247-127-188.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=23, origin; dur=762
+Server-Timing: inner; dur=731
+X-Parent-Response-Time: 780,23.214.75.141
+
+{"code": 0, "message": "OK", "request_id": "202401090400480025E22FDDD0E530C671", "data": {"feed_log_id": "500469307"}}
+
+2024-01-09T05:01:54+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync: catalog_sync executing for Eka Krisna
+2024-01-09T05:01:54+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync: adding and updating products from wc_get_products since 9 January 2024 04:00:51
+2024-01-09T05:01:54+00:00 DEBUG Tt4b_Catalog_Class::delete_products_helper: no products retrieved from tt4b_product_delete_queue option, skipping product deletion
+2024-01-09T05:01:54+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync_helper: no products retrieved from wc_get_products
+2024-01-09T05:01:54+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync_helper: product_page: 1 product_count: 0, variation_count: 0
+2024-01-09T05:01:54+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/catalog/product/upload/
+
+{"bc_id":"7321653444622827522","catalog_id":"7321651951337309954","products":[]}
+ ajax: no
+2024-01-09T05:01:55+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 134
+stablecode: 0
+upstream-caught: None
+X_TT_LOGID: 2024010905015101E0C21AC82100331C53
+X-Domain-Change-Info: We have moved to a new domain for API services after the Platform Upgrade on 09/30/2021. Please update all of your requests with the new domain if you haven't done so already. For more information, please visit https://ads.tiktok.com/marketing_api/docs?rid=esb88xalm6m&id=1709207085043713
+X-TT-LOGID: 2024010905015101E0C21AC82100331C53
+X-TT-LOGID: 2024010905015101E0C21AC82100331C53
+Server-Timing: inner; dur=154
+x-tt-trace-host: 01ebf7b7ad2e3716121405ac78fd79dd2d53c1a3589ce0e65e7f535e8a266bc6f4ed65b7322e0ff278124faeb985ea78803e0b76bcbc93cc93951e63a48b7789d78b23c9b54382776415e2c3a87a030de7c582869be494cf4462442cbc53b34692
+x-tt-trace-id: 00-24010905015101E0C21AC82100331C53-36C31FBF05233392-00
+Server: TLB
+Expires: Tue, 09 Jan 2024 05:01:53 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 09 Jan 2024 05:01:53 GMT
+X-Cache: TCP_MISS from a23-47-190-173.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+Connection: close
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=4, origin; dur=159
+X-Origin-Response-Time: 159,23.47.190.173
+X-Akamai-Request-ID: f75edfb
+
+{"code": 40002, "message": "products: Shorter than minimum length 1.", "request_id": "2024010905015101E0C21AC82100331C53", "data": {}}
+
+2024-01-09T06:00:04+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync: catalog_sync executing for Eka Krisna
+2024-01-09T06:00:04+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync: adding and updating products from wc_get_products since 9 January 2024 05:01:54
+2024-01-09T06:00:04+00:00 DEBUG Tt4b_Catalog_Class::delete_products_helper: no products retrieved from tt4b_product_delete_queue option, skipping product deletion
+2024-01-09T06:00:04+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync_helper: no products retrieved from wc_get_products
+2024-01-09T06:00:04+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync_helper: product_page: 1 product_count: 0, variation_count: 0
+2024-01-09T06:00:04+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/catalog/product/upload/
+
+{"bc_id":"7321653444622827522","catalog_id":"7321651951337309954","products":[]}
+ ajax: no
+2024-01-09T06:00:04+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 134
+stablecode: 0
+upstream-caught: None
+X_TT_LOGID: 202401090600019869A2DC94C20017BE72
+X-Domain-Change-Info: We have moved to a new domain for API services after the Platform Upgrade on 09/30/2021. Please update all of your requests with the new domain if you haven't done so already. For more information, please visit https://ads.tiktok.com/marketing_api/docs?rid=esb88xalm6m&id=1709207085043713
+X-TT-LOGID: 202401090600019869A2DC94C20017BE72
+X-TT-LOGID: 202401090600019869A2DC94C20017BE72
+Server-Timing: inner; dur=170
+x-tt-trace-host: 01ebf7b7ad2e3716121405ac78fd79dd2db214bd2cac9d38648e6bce8b3d0f7a1c82356bc2aa4e4d218a0f99e420b22c849e05dfcfbd4fabfc12a2aaf2b22ebeb56ee4fef8b841d2d72f08184a3553f5bdadf71b684300ecc7eaf54c30cfbac32c
+x-tt-trace-id: 00-2401090600019869A2DC94C20017BE72-731EDD6208C7DD0C-00
+Server: TLB
+Expires: Tue, 09 Jan 2024 06:00:02 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 09 Jan 2024 06:00:02 GMT
+X-Cache: TCP_MISS from a23-206-233-13.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+Connection: close
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=4, origin; dur=190
+X-Origin-Response-Time: 190,23.206.233.13
+X-Akamai-Request-ID: 885bf43
+
+{"code": 40002, "message": "products: Shorter than minimum length 1.", "request_id": "202401090600019869A2DC94C20017BE72", "data": {}}
+
+2024-01-09T06:05:16+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.2/tbp/business_profile/store/update/
+
+{"business_platform":"WOO_COMMERCE","external_business_id":"tt4b_woocommerce_659bb88b00a3d","net_gmv":[{"interval":"LIFETIME","max":23945900,"min":23945900,"unit":"CURRENCY"}],"net_order_count":[{"interval":"LIFETIME","max":1,"min":1,"unit":"COUNT"}],"tenure":{"min":0,"max":0,"unit":"DAYS"},"extra_data":"1.2.3"}
+ ajax: no
+2024-01-09T06:05:17+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Content-Type: application/json
+X-Api-Deprecation-Info: API for Business Version 1.3 is now live. To avoid disruption to your business, we recommend you migrate all calls to v1.3 as soon as possible. Please visit our migration guide for more details: https://ads.tiktok.com/marketing_api/docs?id=1740029169927169
+X-Domain-Change-Info: We have moved to the new domain business-api.tiktok.com for API services after the Platform Upgrade on 09/30/2021. Please update all of your requests with the new domain if you haven't done so already. For more information, please visit https://ads.tiktok.com/marketing_api/docs?rid=esb88xalm6m&id=1709207085043713
+X-Tt-Logid: 20240109060513D97AFE8EF61B091AA0C7
+x-tt-trace-host: 01ebf7b7ad2e3716121405ac78fd79dd2deb36f0e8cc1beba4d793eb9ec485bdc5bc2b3c1aed0c4f95836ceff42b79c8691c82414ef682e272efc81144c71a0422360b859fcea11216fe5d62819ec06839606ff19f11598fd3b7fbd31804f6388191f27f875c038cd1cc7f1d4f3ef811f9
+x-tt-trace-id: 00-240109060513D97AFE8EF61B091AA0C7-23439D0E62412FCD-00
+Server: TLB
+Content-Encoding: gzip
+Content-Length: 567
+X-Origin-Response-Time: 290,173.222.132.203
+X-Akamai-Request-ID: 3444c0f2.69c0155
+Expires: Tue, 09 Jan 2024 06:05:15 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 09 Jan 2024 06:05:15 GMT
+X-Cache: TCP_MISS from a23-214-75-146.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+Connection: close
+Vary: Accept-Encoding
+X-Cache-Remote: TCP_MISS from a173-222-132-203.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=20, origin; dur=290
+Server-Timing: inner; dur=282
+X-Parent-Response-Time: 306,23.214.75.146
+
+{"code":0,"message":"OK","request_id":"20240109060513D97AFE8EF61B091AA0C7","data":{"adv_id":"7321653345561690114","bc_id":"7321653444622827522","business_platform":"WOO_COMMERCE","catalog_id":"7321651951337309954","core_user_id":"7272202384490333186","country":"ID","create_time":"2024-01-08 09:14:42","currency":"IDR","domain":"http://localhost/wordpress","email":"eka1.grune@gmail.com","external_business_id":"tt4b_woocommerce_659bb88b00a3d","is_email_verified":true,"is_test":false,"is_verified":true,"net_gmv":[{"interval":"LIFETIME","max":23945900,"min":23945900,"unit":"CURRENCY"}],"net_order_count":[{"interval":"LIFETIME","max":1,"min":1,"unit":"COUNT"}],"phone_number":"+621234567890","pixel_code":"CMDRQ6BC77U58IELOS4G","status":2,"store_name":"Eka Krisna","tenure":{"max":0,"min":0,"unit":"DAYS"},"timezone":"GMT+00:00","update_time":"2024-01-08 09:15:38","website_url":"http://localhost/wordpress"}}
+
+2024-01-09T06:34:41+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-01-09T06:34:41+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CMDRQ6BC77U58IELOS4G","data":[{"event":"ViewContent","event_id":"659ce9018fe7f_tt4b_woocommerce_659bb88b00a3d_48","event_time":1704782081,"user":{"phone":"","email":"5eadb2197b17a077b249b3ae9add68190b39cd271992e8dad601a0883586ad58","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/120.0.0.0 Safari\/537.36","locale":"en","ttp":"nvd9caop130HzR5DD9qvMfcIau8"},"properties":{"contents":[{"price":23945900,"quantity":1,"content_id":"48","content_name":"MSI VGA RTX 3080 GAMING X TRIO 10G"}],"content_type":"product","currency":"IDR","value":23945900},"page":{"url":"http:\/\/localhost\/wordpress\/product\/msi-vga-rtx-3080-gaming-x-trio-10g\/"}}]}
+ ajax: no
+2024-01-09T06:34:42+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 20240109063439FB724ADAE51433E470E3
+x-tt-trace-host: 01ebf7b7ad2e3716121405ac78fd79dd2d4a4fd46392dfc43b5796c89d1137688624738c7c2f4ad06c3277eadf673d550b381326cd17308bf670e1ef3c4ab24be91616925d6089ff2c0b9287bd211d74e402a832647548b147a0e2505f6ae0ca81752a59875231ef78ced9ca4d33310dba
+x-tt-trace-id: 00-240109063439FB724ADAE51433E470E3-277A93A190610D6E-00
+X-Origin-Response-Time: 105,23.32.17.69
+X-Akamai-Request-ID: 6c81e53.cf09b0e
+Expires: Tue, 09 Jan 2024 06:34:40 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 09 Jan 2024 06:34:40 GMT
+X-Cache: TCP_MISS from a23-206-233-99.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-32-17-69.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=301, origin; dur=104
+Server-Timing: inner; dur=101
+X-Parent-Response-Time: 386,23.206.233.99
+
+{"code": 0, "message": "OK", "request_id": "20240109063439FB724ADAE51433E470E3", "data": {}}
+
+2024-01-09T07:00:44+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync: catalog_sync executing for Eka Krisna
+2024-01-09T07:00:44+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync: adding and updating products from wc_get_products since 9 January 2024 06:00:04
+2024-01-09T07:00:44+00:00 DEBUG Tt4b_Catalog_Class::delete_products_helper: no products retrieved from tt4b_product_delete_queue option, skipping product deletion
+2024-01-09T07:00:44+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync_helper: no products retrieved from wc_get_products
+2024-01-09T07:00:44+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync_helper: product_page: 1 product_count: 0, variation_count: 0
+2024-01-09T07:00:44+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/catalog/product/upload/
+
+{"bc_id":"7321653444622827522","catalog_id":"7321651951337309954","products":[]}
+ ajax: no
+2024-01-09T07:00:45+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 134
+stablecode: 0
+upstream-caught: None
+X_TT_LOGID: 20240109070041FA81E385780A513875AD
+X-Domain-Change-Info: We have moved to a new domain for API services after the Platform Upgrade on 09/30/2021. Please update all of your requests with the new domain if you haven't done so already. For more information, please visit https://ads.tiktok.com/marketing_api/docs?rid=esb88xalm6m&id=1709207085043713
+X-TT-LOGID: 20240109070041FA81E385780A513875AD
+X-TT-LOGID: 20240109070041FA81E385780A513875AD
+x-tt-trace-host: 01ebf7b7ad2e3716121405ac78fd79dd2d1929b942e34c14667af10d39b1a07e5d67f6ee68f851b09e87f865294efe094db93edf609972fc2e45e4f72ffa1d3c2a1c4ced0ac76dd4962b677ff02d309058582ded81f8b5f9a69caa5f14997afd9923f915d044c55551c6c1ab34abc2c304
+x-tt-trace-id: 00-240109070041FA81E385780A513875AD-7F10BC43692228D8-00
+Server: TLB
+X-Origin-Response-Time: 169,125.56.219.54
+X-Akamai-Request-ID: 41066e.2d9e9cf4
+Expires: Tue, 09 Jan 2024 07:00:43 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 09 Jan 2024 07:00:43 GMT
+X-Cache: TCP_MISS from a23-206-233-74.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a125-56-219-54.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=22, origin; dur=169
+Server-Timing: inner; dur=165
+X-Parent-Response-Time: 188,23.206.233.74
+
+{"code": 40002, "message": "products: Shorter than minimum length 1.", "request_id": "20240109070041FA81E385780A513875AD", "data": {}}
+
+2024-01-09T08:00:42+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync: catalog_sync executing for Eka Krisna
+2024-01-09T08:00:42+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync: adding and updating products from wc_get_products since 9 January 2024 07:00:44
+2024-01-09T08:00:42+00:00 DEBUG Tt4b_Catalog_Class::delete_products_helper: no products retrieved from tt4b_product_delete_queue option, skipping product deletion
+2024-01-09T08:00:42+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync_helper: no products retrieved from wc_get_products
+2024-01-09T08:00:42+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync_helper: product_page: 1 product_count: 0, variation_count: 0
+2024-01-09T08:00:42+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/catalog/product/upload/
+
+{"bc_id":"7321653444622827522","catalog_id":"7321651951337309954","products":[]}
+ ajax: no
+2024-01-09T08:00:42+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 134
+stablecode: 0
+upstream-caught: None
+X_TT_LOGID: 20240109080039B203AD44FE0B5219EDCF
+X-Domain-Change-Info: We have moved to a new domain for API services after the Platform Upgrade on 09/30/2021. Please update all of your requests with the new domain if you haven't done so already. For more information, please visit https://ads.tiktok.com/marketing_api/docs?rid=esb88xalm6m&id=1709207085043713
+X-TT-LOGID: 20240109080039B203AD44FE0B5219EDCF
+X-TT-LOGID: 20240109080039B203AD44FE0B5219EDCF
+Server-Timing: inner; dur=155
+x-tt-trace-host: 01ebf7b7ad2e3716121405ac78fd79dd2d64a2a10bf2e6f176adae97f8eef3d5571b8c2199480c23b2f24badda6a84b406e1ff0b1be5ea54cf4ac46cd26f5a84bf2d3dd85f394e5e5e9a3bd21fb08103f81eefbbd5a8c3da32cfc5d17f5ce53f48
+x-tt-trace-id: 00-240109080039B203AD44FE0B5219EDCF-286C124B700819F0-00
+Server: TLB
+Expires: Tue, 09 Jan 2024 08:00:40 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 09 Jan 2024 08:00:40 GMT
+X-Cache: TCP_MISS from a23-47-190-84.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+Connection: close
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=3, origin; dur=159
+X-Origin-Response-Time: 160,23.47.190.84
+X-Akamai-Request-ID: 18e7dd3
+
+{"code": 40002, "message": "products: Shorter than minimum length 1.", "request_id": "20240109080039B203AD44FE0B5219EDCF", "data": {}}
+
+2024-01-09T08:05:08+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-01-09T08:05:08+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CMDRQ6BC77U58IELOS4G","data":[{"event":"ViewContent","event_id":"659cfe3496d55_tt4b_woocommerce_659bb88b00a3d_48","event_time":1704787508,"user":{"phone":"","email":"5eadb2197b17a077b249b3ae9add68190b39cd271992e8dad601a0883586ad58","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/120.0.0.0 Safari\/537.36","locale":"en","ttp":"hsnP38x7lq3BLDWgjhKSbvHNYLB"},"properties":{"contents":[{"price":23945900,"quantity":1,"content_id":"48","content_name":"MSI VGA RTX 3080 GAMING X TRIO 10G"}],"content_type":"product","currency":"IDR","value":23945900},"page":{"url":"http:\/\/localhost\/wordpress\/product\/msi-vga-rtx-3080-gaming-x-trio-10g\/"}}]}
+ ajax: no
+2024-01-09T08:05:09+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 2024010908050783A6514F9220421C3A06
+x-tt-trace-host: 01ebf7b7ad2e3716121405ac78fd79dd2df5adad8521e35ced02740ec487bad75d59b268f3becbd605335d169f72e98e6ebb1b06fb84eb72a6d073e84b1a69631fe6de10b468c4401e39c804af6470cf0d1303daf75f2fdd613702498f719e909fc785134c1e7d09f8b059166dff182783
+x-tt-trace-id: 00-24010908050783A6514F9220421C3A06-380E14F87C7841B5-00
+X-Origin-Response-Time: 95,23.207.199.88
+X-Akamai-Request-ID: a32e192c.4106dd51
+Expires: Tue, 09 Jan 2024 08:05:07 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 09 Jan 2024 08:05:07 GMT
+X-Cache: TCP_MISS from a23-210-250-143.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-207-199-88.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=238, origin; dur=95
+Server-Timing: inner; dur=92
+X-Parent-Response-Time: 325,23.210.250.143
+
+{"code": 0, "message": "OK", "request_id": "2024010908050783A6514F9220421C3A06", "data": {}}
+
