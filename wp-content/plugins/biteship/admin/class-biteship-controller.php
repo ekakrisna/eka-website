@@ -103,6 +103,13 @@ class Biteship_Controller {
         ));
     }
 
+    //Ilyasa - function untuk get payment method order
+    public function has_payment_method($order)
+    {
+        $payment_method = $order->get_payment_method();
+        return $payment_method;
+    }
+
     function create_shipment(WP_REST_Request $request){
         $logger = wc_get_logger();
         date_default_timezone_set("Asia/Jakarta");
@@ -159,13 +166,26 @@ class Biteship_Controller {
                 'webhook_url' => $webhook_url
             );
 
-            if ($this->order_has_fee($order, 'Biaya COD')) {
-                $item_total_price =  0;
-                foreach ($order->get_items() as  $item_id => $item) {
-                    $active_price   = $item->get_total();
-                    $item_total_price += $active_price;
+            // if ($this->order_has_fee($order, 'Biaya COD')) {
+            //     $item_total_price =  0;
+            //     foreach ($order->get_items() as  $item_id => $item) {
+            //         $active_price   = $item->get_total();
+            //         $item_total_price += $active_price;
+            //     }
+            //     $biteship_order['destination_cash_on_delivery'] = $item_total_price + $order->get_shipping_total();
+            // }
+
+            //Ilyasa - new version of detecting cod or not
+            if($this->has_payment_method($order) == "cod"){
+                $is_cod_available = $selected_shipping->get_meta("is_cod_available");
+                if($is_cod_available){
+                    $item_total_price =  0;
+                    foreach ($order->get_items() as  $item_id => $item) {
+                        $active_price   = $item->get_total();
+                        $item_total_price += $active_price;
+                    }
+                    $biteship_order['destination_cash_on_delivery'] = $item_total_price + $order->get_shipping_total();
                 }
-                $biteship_order['destination_cash_on_delivery'] = $item_total_price + $order->get_shipping_total();
             }
 
             if ($this->order_has_fee($order, 'Biaya asuransi')) {

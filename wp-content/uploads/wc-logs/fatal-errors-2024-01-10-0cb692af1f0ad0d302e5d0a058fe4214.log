@@ -1,0 +1,10 @@
+2024-01-10T05:54:46+00:00 CRITICAL Uncaught Error: Class "WooCommerce_Plugin_Extension_Boilerplate_Activate" not found in C:\xampp\htdocs\wordpress\wp-content\plugins\WooCommerce-Plugin-Extension-Boilerplate\woocommerce-extension-boilerplate.php:77
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): WooCommerce_Plugin_Extension_Boilerplate::activate(false)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-admin\includes\plugin.php(693): do_action('activate_WooCom...', false)
+#4 C:\xampp\htdocs\wordpress\wp-admin\plugins.php(58): activate_plugin('WooCommerce-Plu...', 'http://localhos...', false)
+#5 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\WooCommerce-Plugin-Extension-Boilerplate\woocommerce-extension-boilerplate.php on line 77
+

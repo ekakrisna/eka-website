@@ -1,0 +1,131 @@
+2024-01-12T01:57:56+00:00 CRITICAL Uncaught Error: Call to undefined function create_function() in C:\xampp\htdocs\wordpress\wp-content\themes\north\woocommerce\config.php:102
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\north\functions.php(427): require_once()
+#1 C:\xampp\htdocs\wordpress\wp-settings.php(611): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-config.php(97): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-admin\themes.php(10): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\north\woocommerce\config.php on line 102
+
+2024-01-12T01:58:02+00:00 CRITICAL Uncaught Error: Call to undefined function create_function() in C:\xampp\htdocs\wordpress\wp-content\themes\north\woocommerce\config.php:102
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\north\functions.php(427): require_once()
+#1 C:\xampp\htdocs\wordpress\wp-settings.php(611): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-config.php(97): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-admin\themes.php(10): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\north\woocommerce\config.php on line 102
+
+2024-01-12T01:58:07+00:00 CRITICAL Uncaught Error: Call to undefined function create_function() in C:\xampp\htdocs\wordpress\wp-content\themes\north\woocommerce\config.php:102
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\north\functions.php(427): require_once()
+#1 C:\xampp\htdocs\wordpress\wp-settings.php(611): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-config.php(97): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-admin\theme-install.php(10): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\north\woocommerce\config.php on line 102
+
+2024-01-12T01:58:10+00:00 CRITICAL Uncaught Error: Call to undefined function create_function() in C:\xampp\htdocs\wordpress\wp-content\themes\north\woocommerce\config.php:102
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\north\functions.php(427): require_once()
+#1 C:\xampp\htdocs\wordpress\wp-settings.php(611): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-config.php(97): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-admin\update.php(16): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\north\woocommerce\config.php on line 102
+
+2024-01-12T01:58:11+00:00 CRITICAL Uncaught Error: Call to undefined function create_function() in C:\xampp\htdocs\wordpress\wp-content\themes\north\woocommerce\config.php:102
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\north\functions.php(427): require_once()
+#1 C:\xampp\htdocs\wordpress\wp-settings.php(611): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-config.php(97): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-admin\theme-install.php(10): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\north\woocommerce\config.php on line 102
+
+2024-01-12T01:58:12+00:00 CRITICAL Uncaught Error: Call to undefined function create_function() in C:\xampp\htdocs\wordpress\wp-content\themes\north\woocommerce\config.php:102
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\north\functions.php(427): require_once()
+#1 C:\xampp\htdocs\wordpress\wp-settings.php(611): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-config.php(97): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-admin\themes.php(10): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\north\woocommerce\config.php on line 102
+
+2024-01-12T01:58:14+00:00 CRITICAL Uncaught Error: Call to undefined function create_function() in C:\xampp\htdocs\wordpress\wp-content\themes\north\woocommerce\config.php:102
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\north\functions.php(427): require_once()
+#1 C:\xampp\htdocs\wordpress\wp-settings.php(611): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-config.php(97): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-admin\themes.php(10): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\north\woocommerce\config.php on line 102
+
+2024-01-12T01:58:19+00:00 CRITICAL Uncaught Error: Call to undefined function create_function() in C:\xampp\htdocs\wordpress\wp-content\themes\north\woocommerce\config.php:102
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\north\functions.php(427): require_once()
+#1 C:\xampp\htdocs\wordpress\wp-settings.php(611): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-config.php(97): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-admin\index.php(10): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\north\woocommerce\config.php on line 102
+
+2024-01-12T01:59:03+00:00 CRITICAL Uncaught Error: Call to undefined function create_function() in C:\xampp\htdocs\wordpress\wp-content\themes\north\woocommerce\config.php:102
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\north\functions.php(427): require_once()
+#1 C:\xampp\htdocs\wordpress\wp-settings.php(611): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-config.php(97): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-admin\index.php(10): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\north\woocommerce\config.php on line 102
+
+2024-01-12T01:59:10+00:00 CRITICAL Uncaught Error: Call to undefined function create_function() in C:\xampp\htdocs\wordpress\wp-content\themes\north\woocommerce\config.php:102
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\north\functions.php(427): require_once()
+#1 C:\xampp\htdocs\wordpress\wp-settings.php(611): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-config.php(97): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\north\woocommerce\config.php on line 102
+
+2024-01-12T01:59:11+00:00 CRITICAL Uncaught Error: Call to undefined function create_function() in C:\xampp\htdocs\wordpress\wp-content\themes\north\woocommerce\config.php:102
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\north\functions.php(427): require_once()
+#1 C:\xampp\htdocs\wordpress\wp-settings.php(611): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-config.php(97): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\north\woocommerce\config.php on line 102
+
+2024-01-12T02:24:18+00:00 CRITICAL Uncaught Error: Class "WooCommerce_Plugin_Extension_Boilerplate_Activate" not found in C:\xampp\htdocs\wordpress\wp-content\plugins\WooCommerce-Plugin-Extension-Boilerplate\woocommerce-extension-boilerplate.php:82
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): WooCommerce_Plugin_Extension_Boilerplate::activate(false)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-admin\includes\plugin.php(693): do_action('activate_WooCom...', false)
+#4 C:\xampp\htdocs\wordpress\wp-admin\plugins.php(58): activate_plugin('WooCommerce-Plu...', 'http://localhos...', false)
+#5 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\WooCommerce-Plugin-Extension-Boilerplate\woocommerce-extension-boilerplate.php on line 82
+

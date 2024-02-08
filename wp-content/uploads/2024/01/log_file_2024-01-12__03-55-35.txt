@@ -1,0 +1,41 @@
+
+---Downloaded files---
+The import files for: Hotel Vivanta were successfully downloaded!
+Initial max execution time = 500
+Files info:
+Site URL = http://localhost/wordpress
+Data file = C:\xampp\htdocs\wordpress/wp-content/uploads/2024/01/demo-content-import-file_2024-01-12__03-55-35.xml
+Widget file = C:\xampp\htdocs\wordpress/wp-content/uploads/2024/01/demo-widgets-import-file_2024-01-12__03-55-35.json
+Customizer file = C:\xampp\htdocs\wordpress/wp-content/uploads/2024/01/demo-customizer-import-file_2024-01-12__03-55-35.dat
+Redux files:
+not defined!
+
+---Importing widgets---
+Sidebar : 
+
+Search - No Title - Imported
+Recent Posts - No Title - Imported
+Recent Comments - No Title - Imported
+Archives - No Title - Imported
+Categories - No Title - Imported
+Meta - No Title - Imported
+
+Hotel Vivanta Footer Widget1 : 
+
+Text - About Us - Imported
+
+Hotel Vivanta Footer Widget2 : 
+
+Recent Posts - Recent Posts - Imported
+
+Hotel Vivanta Footer Widget3 : 
+
+Video - Watch ideo - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---ocdi/after_import---
+

@@ -1,0 +1,148 @@
+2024-01-10T05:53:50+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync: catalog_sync executing for Eka Krisna
+2024-01-10T05:53:50+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync: adding and updating products from wc_get_products since 9 January 2024 17:02:25
+2024-01-10T05:53:50+00:00 DEBUG Tt4b_Catalog_Class::delete_products_helper: no products retrieved from tt4b_product_delete_queue option, skipping product deletion
+2024-01-10T05:53:50+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync_helper: no products retrieved from wc_get_products
+2024-01-10T05:53:50+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync_helper: product_page: 1 product_count: 0, variation_count: 0
+2024-01-10T05:53:50+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/catalog/product/upload/
+
+{"bc_id":"7321653444622827522","catalog_id":"7321651951337309954","products":[]}
+ ajax: no
+2024-01-10T05:53:51+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 134
+stablecode: 0
+upstream-caught: None
+X_TT_LOGID: 2024011005534829B1FC9E26F87979351E
+X-Domain-Change-Info: We have moved to a new domain for API services after the Platform Upgrade on 09/30/2021. Please update all of your requests with the new domain if you haven't done so already. For more information, please visit https://ads.tiktok.com/marketing_api/docs?rid=esb88xalm6m&id=1709207085043713
+X-TT-LOGID: 2024011005534829B1FC9E26F87979351E
+X-TT-LOGID: 2024011005534829B1FC9E26F87979351E
+x-tt-trace-host: 01ebf7b7ad2e3716121405ac78fd79dd2dae2cadfd451dabf499bced36952a962eedf9dcb2307623c498e5b59c274d70cdc912f8856b7ea677b1251348e10bb43a4758ecccadc168fd5bcb5e8f93102cd745aef87cd8a1e5e16fbd25075d8f1426444c05adceec0ee7ec5147c4dfde63e6
+x-tt-trace-id: 00-24011005534829B1FC9E26F87979351E-76C2583A28C42A4C-00
+Server: TLB
+X-Origin-Response-Time: 156,23.211.140.111
+X-Akamai-Request-ID: 73d6aef.d37d225
+Expires: Wed, 10 Jan 2024 05:53:49 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Wed, 10 Jan 2024 05:53:49 GMT
+X-Cache: TCP_MISS from a23-206-233-4.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-211-140-111.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=50, origin; dur=156
+Server-Timing: inner; dur=152
+X-Parent-Response-Time: 190,23.206.233.4
+
+{"code": 40002, "message": "products: Shorter than minimum length 1.", "request_id": "2024011005534829B1FC9E26F87979351E", "data": {}}
+
+2024-01-10T06:00:08+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync: catalog_sync executing for Eka Krisna
+2024-01-10T06:00:08+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync: adding and updating products from wc_get_products since 10 January 2024 05:53:50
+2024-01-10T06:00:08+00:00 DEBUG Tt4b_Catalog_Class::delete_products_helper: no products retrieved from tt4b_product_delete_queue option, skipping product deletion
+2024-01-10T06:00:08+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync_helper: no products retrieved from wc_get_products
+2024-01-10T06:00:08+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync_helper: product_page: 1 product_count: 0, variation_count: 0
+2024-01-10T06:00:08+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/catalog/product/upload/
+
+{"bc_id":"7321653444622827522","catalog_id":"7321651951337309954","products":[]}
+ ajax: no
+2024-01-10T06:00:09+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 134
+stablecode: 0
+upstream-caught: None
+X_TT_LOGID: 20240110060006572F6BCE8A25B8723DE4
+X-Domain-Change-Info: We have moved to a new domain for API services after the Platform Upgrade on 09/30/2021. Please update all of your requests with the new domain if you haven't done so already. For more information, please visit https://ads.tiktok.com/marketing_api/docs?rid=esb88xalm6m&id=1709207085043713
+X-TT-LOGID: 20240110060006572F6BCE8A25B8723DE4
+X-TT-LOGID: 20240110060006572F6BCE8A25B8723DE4
+Server-Timing: inner; dur=125
+x-tt-trace-host: 01ebf7b7ad2e3716121405ac78fd79dd2d1e1a62025a25ca6988f953d39f0979db8e13c222b053a81dd563bb41faefecf4a0643a1baaf3ded34f1b5a25801f32dbb9f071dbbae70a852b37bf270fd26933314690bd756300205d94120880deb0fd
+x-tt-trace-id: 00-240110060006572F6BCE8A25B8723DE4-6D17D542326A248F-00
+Server: TLB
+Expires: Wed, 10 Jan 2024 06:00:07 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Wed, 10 Jan 2024 06:00:07 GMT
+X-Cache: TCP_MISS from a23-214-75-149.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+Connection: close
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=2, origin; dur=142
+X-Origin-Response-Time: 142,23.214.75.149
+X-Akamai-Request-ID: d9616e9
+
+{"code": 40002, "message": "products: Shorter than minimum length 1.", "request_id": "20240110060006572F6BCE8A25B8723DE4", "data": {}}
+
+2024-01-10T06:06:11+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.2/tbp/business_profile/store/update/
+
+{"business_platform":"WOO_COMMERCE","external_business_id":"tt4b_woocommerce_659bb88b00a3d","net_gmv":[{"interval":"LIFETIME","max":23945900,"min":23945900,"unit":"CURRENCY"}],"net_order_count":[{"interval":"LIFETIME","max":1,"min":1,"unit":"COUNT"}],"tenure":{"min":1,"max":1,"unit":"DAYS"},"extra_data":"1.2.3"}
+ ajax: no
+2024-01-10T06:06:12+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Content-Type: application/json
+X-Api-Deprecation-Info: API for Business Version 1.3 is now live. To avoid disruption to your business, we recommend you migrate all calls to v1.3 as soon as possible. Please visit our migration guide for more details: https://ads.tiktok.com/marketing_api/docs?id=1740029169927169
+X-Domain-Change-Info: We have moved to the new domain business-api.tiktok.com for API services after the Platform Upgrade on 09/30/2021. Please update all of your requests with the new domain if you haven't done so already. For more information, please visit https://ads.tiktok.com/marketing_api/docs?rid=esb88xalm6m&id=1709207085043713
+X-Tt-Logid: 20240110060609A03EF4F8E58343334C0B
+x-tt-trace-host: 01ebf7b7ad2e3716121405ac78fd79dd2d7b93b1d396efe51d7af9d6cdc05f133ff32cb460c0ca1cf166e1abdced94fdbbac475dba7756760a26609e2004f74d77b7fcf1c2a1e10743a4d13eedaa295c48e9cf9851d531e3e622bedf582a33758958be208854a9c854b7542bb94388730a
+x-tt-trace-id: 00-240110060609A03EF4F8E58343334C0B-7CBA89231628E254-00
+Server: TLB
+Content-Encoding: gzip
+Content-Length: 560
+X-Origin-Response-Time: 302,23.49.60.92
+X-Akamai-Request-ID: 772a5ee.10427efc
+Expires: Wed, 10 Jan 2024 06:06:10 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Wed, 10 Jan 2024 06:06:10 GMT
+X-Cache: TCP_MISS from a23-214-75-138.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+Connection: close
+Vary: Accept-Encoding
+X-Cache-Remote: TCP_MISS from a23-49-60-92.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=21, origin; dur=302
+Server-Timing: inner; dur=286
+X-Parent-Response-Time: 318,23.214.75.138
+
+{"code":0,"message":"OK","request_id":"20240110060609A03EF4F8E58343334C0B","data":{"adv_id":"7321653345561690114","bc_id":"7321653444622827522","business_platform":"WOO_COMMERCE","catalog_id":"7321651951337309954","core_user_id":"7272202384490333186","country":"ID","create_time":"2024-01-08 09:14:42","currency":"IDR","domain":"http://localhost/wordpress","email":"eka1.grune@gmail.com","external_business_id":"tt4b_woocommerce_659bb88b00a3d","is_email_verified":true,"is_test":false,"is_verified":true,"net_gmv":[{"interval":"LIFETIME","max":23945900,"min":23945900,"unit":"CURRENCY"}],"net_order_count":[{"interval":"LIFETIME","max":1,"min":1,"unit":"COUNT"}],"phone_number":"+621234567890","pixel_code":"CMDRQ6BC77U58IELOS4G","status":2,"store_name":"Eka Krisna","tenure":{"max":1,"min":1,"unit":"DAYS"},"timezone":"GMT+00:00","update_time":"2024-01-08 09:15:38","website_url":"http://localhost/wordpress"}}
+
+2024-01-10T07:04:46+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync: catalog_sync executing for Eka Krisna
+2024-01-10T07:04:46+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync: adding and updating products from wc_get_products since 10 January 2024 06:00:08
+2024-01-10T07:04:46+00:00 DEBUG Tt4b_Catalog_Class::delete_products_helper: no products retrieved from tt4b_product_delete_queue option, skipping product deletion
+2024-01-10T07:04:46+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync_helper: no products retrieved from wc_get_products
+2024-01-10T07:04:46+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync_helper: product_page: 1 product_count: 0, variation_count: 0
+2024-01-10T07:04:46+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/catalog/product/upload/
+
+{"bc_id":"7321653444622827522","catalog_id":"7321651951337309954","products":[]}
+ ajax: no
+2024-01-10T07:04:47+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 134
+stablecode: 0
+upstream-caught: None
+X_TT_LOGID: 20240110070444C87005057FEF09342ABF
+X-Domain-Change-Info: We have moved to a new domain for API services after the Platform Upgrade on 09/30/2021. Please update all of your requests with the new domain if you haven't done so already. For more information, please visit https://ads.tiktok.com/marketing_api/docs?rid=esb88xalm6m&id=1709207085043713
+X-TT-LOGID: 20240110070444C87005057FEF09342ABF
+X-TT-LOGID: 20240110070444C87005057FEF09342ABF
+x-tt-trace-host: 01ebf7b7ad2e3716121405ac78fd79dd2d252d7e61abd4f53d15d2df3c8bfbf5c684ecfcc8ca345487ca2d118bcf5b7a08efac2af498a99d35058bc4565813dc63cdf9855b932960608bf77c35bdd1dd53ef03a2520e6c68de8ba27eaf2b858d33995a27de7654b0c48b31f839163d3fd9
+x-tt-trace-id: 00-240110070444C87005057FEF09342ABF-7F6767913CAD7351-00
+Server: TLB
+X-Origin-Response-Time: 157,72.247.127.238
+X-Akamai-Request-ID: d2655aa.13f109bc
+Expires: Wed, 10 Jan 2024 07:04:45 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Wed, 10 Jan 2024 07:04:45 GMT
+X-Cache: TCP_MISS from a23-214-75-133.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52668873) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a72-247-127-238.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=18, origin; dur=157
+Server-Timing: inner; dur=144
+X-Parent-Response-Time: 173,23.214.75.133
+
+{"code": 40002, "message": "products: Shorter than minimum length 1.", "request_id": "20240110070444C87005057FEF09342ABF", "data": {}}
+

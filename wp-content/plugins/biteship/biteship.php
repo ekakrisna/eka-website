@@ -16,7 +16,7 @@
  * Plugin Name:       Biteship for WooCommerce
  * Plugin URI:        https://biteship.com/
  * Description:       Pengiriman menjadi lebih mudah dengan layanan cek ongkos kirim dan penjemputan barang langsung ke lokasi yang dibantu oleh lebih dari 20 ekspedisi. Nikmati fitur ini hanya di Biteship for WooCommerce.
- * Version:           2.2.25
+ * Version:           2.2.27
  * Author:            Biteship
  * Author URI:        https://biteship.com/
  * License:           GPL-2.0+
@@ -35,7 +35,7 @@ if ( ! defined( 'WPINC' ) ) {
  * Start at version 1.0.0 and use SemVer - https://semver.org
  * Rename this for your plugin and update it as you release new versions.
  */
-define( 'BITESHIP_VERSION', '2.2.25' );
+define( 'BITESHIP_VERSION', '2.2.27' );
 
 define( 'BITESHIP_PLUGIN_PATH', plugin_dir_path( __FILE__ ) );
 define( 'BITESHIP_PLUGIN_URL', plugins_url( basename( plugin_dir_path( __FILE__ ) ), basename( __FILE__ ) ) );

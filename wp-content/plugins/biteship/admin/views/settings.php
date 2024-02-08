@@ -77,7 +77,7 @@
     <?php
       $cod_selected = '';
       $cod_disabled = 'disabled';
-      if ($options['cod_percentage'] > 0 && $options['cod_enabled']) {
+      if ($options['cod_enabled']) { //sebelumnya ada $options['cod_percentage'] > 0
         $cod_selected = "checked='checked'";
         $cod_disabled = '';
       }
@@ -92,7 +92,7 @@
             <span class="slider round"></span>
         </label>
         <span style="margin-left: 20px;">
-          <input type="number" step="0.1" value="<?php echo $options['cod_percentage'] ?>" name="cod_percentage" id="cod_percentage" style="width: 75px" <?php echo $cod_disabled ?>/>
+          <input type="number" min="0" step="0.1" value="<?php echo $options['cod_percentage'] ?>" name="cod_percentage" id="cod_percentage" style="width: 75px" <?php echo $cod_disabled ?>/>
         </span>
         <span style="margin-left: 5px;font-size: 20px;">%</span>
       </div>

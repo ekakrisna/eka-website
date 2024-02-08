@@ -1,0 +1,39 @@
+2024-01-23T01:25:50+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync: catalog_sync executing for Eka Krisna
+2024-01-23T01:25:50+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync: adding and updating products from wc_get_products since 22 January 2024 07:08:13
+2024-01-23T01:25:50+00:00 DEBUG Tt4b_Catalog_Class::delete_products_helper: no products retrieved from tt4b_product_delete_queue option, skipping product deletion
+2024-01-23T01:25:50+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync_helper: no products retrieved from wc_get_products
+2024-01-23T01:25:50+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync_helper: product_page: 1 product_count: 0, variation_count: 0
+2024-01-23T01:25:50+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/catalog/product/upload/
+
+{"bc_id":"7321653444622827522","catalog_id":"7321651951337309954","products":[]}
+ ajax: no
+2024-01-23T01:25:50+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 134
+stablecode: 0
+upstream-caught: None
+X_TT_LOGID: 20240123012550696C6789BB8E9809283C
+X-Domain-Change-Info: We have moved to a new domain for API services after the Platform Upgrade on 09/30/2021. Please update all of your requests with the new domain if you haven't done so already. For more information, please visit https://ads.tiktok.com/marketing_api/docs?rid=esb88xalm6m&id=1709207085043713
+X-TT-LOGID: 20240123012550696C6789BB8E9809283C
+X-TT-LOGID: 20240123012550696C6789BB8E9809283C
+x-tt-trace-host: 0131a59ebe73466065dc2988d8b26dc9e5f1906b79613b33ecdd5f72b7fbc7c2acf4948fcd7a0d721ef8be2468601cf754ad946c3120f485edd6d0988aed95edf60b45b02651760e9ffd49546168659ed28d21f5800640c309267f1f8ecc5608b0bfccb031698863fa9ebc53a7f15b8c24
+x-tt-trace-id: 00-240123012550696C6789BB8E9809283C-53633A0F64C7AFC8-00
+Server: TLB
+X-Origin-Response-Time: 158,23.47.190.116
+X-Akamai-Request-ID: a192c61.23ab1b64
+Expires: Tue, 23 Jan 2024 01:25:51 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 23 Jan 2024 01:25:51 GMT
+X-Cache: TCP_MISS from a23-214-75-158.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-47-190-116.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=154, origin; dur=158
+Server-Timing: inner; dur=154
+X-Parent-Response-Time: 304,23.214.75.158
+
+{"code": 40002, "message": "products: Shorter than minimum length 1.", "request_id": "20240123012550696C6789BB8E9809283C", "data": {}}
+

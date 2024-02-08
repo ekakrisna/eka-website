@@ -204,7 +204,7 @@ class Biteship_Public {
 
 		$shipping_fee = WC()->cart->shipping_total;
 		$payment_method = WC()->session->get('chosen_payment_method');
-		if ($payment_method === 'cod' && $biteship_options['cod_percentage'] > 0) {
+		if ($payment_method === 'cod') {
 			$cod = ($subtotal + $shipping_fee) * $biteship_options['cod_percentage']/100;
 			WC()->cart->add_fee( 'Biaya COD', $cod, true, '' );
 		}
@@ -213,7 +213,14 @@ class Biteship_Public {
 	public function available_payment_gateway( $available_gateways ) {
 		$chosen_method_id = $this->get_chosen_method_id();
 
+		//Ilyasa - Get Biteship COD Option for Validation COD Gateway in checkout page
+		$biteship_shipping = $this->get_biteship_shipping();
+		$biteship_options = $biteship_shipping->get_options();
+
 		if (isset( $available_gateways['cod'] ) && strpos($chosen_method_id, 'cod') === false) {
+			unset( $available_gateways['cod'] );
+		}
+		else if(empty($biteship_options["cod_enabled"])){
 			unset( $available_gateways['cod'] );
 		}
 		return $available_gateways;

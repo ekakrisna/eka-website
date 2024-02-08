@@ -293,6 +293,13 @@ class Biteship_Admin {
 		wp_send_json_success( $response );
 	}
 
+	//Ilyasa - function untuk get payment method order
+    public function has_payment_method($order)
+    {
+        $payment_method = $order->get_payment_method();
+        return $payment_method;
+    }
+
 	public function order_biteship() {
 		check_ajax_referer( 'biteship_admin_order_biteship', 'security' );
 
@@ -344,14 +351,27 @@ class Biteship_Admin {
 			'shipping_biteship_multi_origins' => $order->get_meta('_shipping_biteship_multi_origins')
 		);
 
-		if ($this->order_has_fee($order, 'Biaya COD')) {
+		// if ($this->order_has_fee($order, 'Biaya COD')) {
+		// 	$item_total_price =  0;
+		// 	foreach ( $order->get_items() as  $item_id => $item ) {
+		// 		$active_price   = $item->get_total(); 
+		// 		$item_total_price += $active_price;
+		// 	}
+		// 	$biteship_order['destination_cash_on_delivery'] = $item_total_price + $order->get_shipping_total();
+		// }
+
+		//Ilyasa - new version of detecting cod or not
+		if($this->has_payment_method($order) == "cod"){
+			$is_cod_available = $selected_shipping->get_meta("is_cod_available");
+			if($is_cod_available){
 				$item_total_price =  0;
-				foreach ( $order->get_items() as  $item_id => $item ) {
-    				$active_price   = $item->get_total(); 
+				foreach ($order->get_items() as  $item_id => $item) {
+					$active_price   = $item->get_total();
 					$item_total_price += $active_price;
 				}
 				$biteship_order['destination_cash_on_delivery'] = $item_total_price + $order->get_shipping_total();
 			}
+		}
 
 		if ($this->order_has_fee($order, 'Biaya asuransi')) {
 			$biteship_order['courier_insurance'] = $order->get_subtotal();
@@ -627,13 +647,26 @@ class Biteship_Admin {
 				'shipping_biteship_multi_origins' => $order->get_meta('_shipping_biteship_multi_origins')
 			);
 
-			if ($this->order_has_fee($order, 'Biaya COD')) {
-				$item_total_price =  0;
-				foreach ( $order->get_items() as  $item_id => $item ) {
-					$active_price   = $item->get_total(); 
-					$item_total_price += $active_price;
+			// if ($this->order_has_fee($order, 'Biaya COD')) {
+			// 	$item_total_price =  0;
+			// 	foreach ( $order->get_items() as  $item_id => $item ) {
+			// 		$active_price   = $item->get_total(); 
+			// 		$item_total_price += $active_price;
+			// 	}
+			// 	$biteship_bulk_order['cash_on_delivery'] = $item_total_price + $order->get_shipping_total();
+			// }
+
+			//Ilyasa - new version of detecting cod or not
+			if($this->has_payment_method($order) == "cod"){
+				$is_cod_available = $selected_shipping->get_meta("is_cod_available");
+				if($is_cod_available){
+					$item_total_price =  0;
+					foreach ($order->get_items() as  $item_id => $item) {
+						$active_price   = $item->get_total();
+						$item_total_price += $active_price;
+					}
+					$biteship_bulk_order['cash_on_delivery'] = $item_total_price + $order->get_shipping_total();
 				}
-				$biteship_bulk_order['cash_on_delivery'] = $item_total_price + $order->get_shipping_total();
 			}
 
 			if ($this->order_has_fee($order, 'Biaya asuransi')) {
